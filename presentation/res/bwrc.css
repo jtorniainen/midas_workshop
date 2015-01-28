@@ -1,14 +1,14 @@
 @font-face{
   font-family: "rama-regular";
-  src: url("fonts/RamaGothicE-Regular.ttf");
+  src: local('Rama Gothic E Regular');
 	  }
 @font-face{
   font-family: "rama-thin";
-  src: url("fonts/RamaGothicE-Regular.ttf");
+  src: local('Rama Gothic E Thin');
 }
 @font-face{
   font-family: "rama-bold";
-  src: url("fonts/RamaGothicE-Regular.ttf");
+  src: local('Rama Gothic E Bold');
 }
 /*.reveal a:not(.image) {
   line-height: 1.3em; }*/

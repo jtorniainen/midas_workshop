@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="res/reveal.css">
     <link rel="stylesheet" href="res/bwrc.css" id="theme">
     <link rel="stylesheet" href="res/zenburn2.css">
-    <!-- <link rel="stylesheet" href="res/pdf2.css"> -->
+    <link rel="stylesheet" href="res/pdf2.css">
   </head>
 
   <body>
@@ -20,19 +20,18 @@
           <img src="assets/BWRC_logo.svg" style="border-style:none;height:700px"/>
         </section>
 
-        <!-- -------------------------------->
         <section>
           <h2>MIDAS WORKSHOP</h2>
           <h4>Finnish Institute of Occupational Health</h4>
         </section>
-        <!-- -------------------------------->
+
         <section>
           <p>
             All workshop material available at
           </p>
-          <h4 style="font-size:60px">github.com/bwrc/midas/tree/master/<font color="#003c78">tutorial</font></h4>
+          <h4 style="font-size:60px">github.com/jtorniainen/<font color="#003c78">midas_workshop</font></h4>
         </section>
-        <!-- -------------------------------->
+
         <section>
           <h2>Outline</h2>
           <ol>
@@ -48,7 +47,7 @@
             <li>Q & A</li>
           </ol>
         </section>
-        <!-- -------------------------------->
+
         <section>
           <table class="reveal" style="margin-top:auto;margin-bottom:auto;margin-left:auto;margin-right:auto">
 
@@ -59,7 +58,6 @@
               <td style="text-align:center"><h2 style="font-size:200px"><font color="#f0aa00">A</h2></td>
               <td style="text-align:center"><h2 style="font-size:200px">S</h2></td>
             </tr>
-
             <tr>
               <td><h4 style="font-size:60px">MODULAR</h4></td>
               <td><h4 style="font-size:60px">INTEGRATED</h4></td>
@@ -69,25 +67,13 @@
             </tr>
           </table>
         </section>
-        <!-- -------------------------------->
+
         <section>
           <section>
             <h2>1. INTRODUCTION</h2>
             <p>MIDAS (Modular Integrated Distributed Analysis System) is a system for online analysis of physiologic signals or other streaming time series and easy integration into online machine learning frameworks.</p>
           </section>
-<!-- Can we replace this slide with an image -->
-<!--
-          <section>
-            <h2>1.1 ANALYZING PHYSIOLOGIC SIGNALS</h2>
-            <ol>
-              <li>Different signals: EEG, ECG, EDA etc</li>
-              <li>Signal processing required! (e.g. R-peak detection etc)</li>
-              <li>Analysis of processed signals</li>
-              <li>This is not straightforward -- "realtime" requirement</li>
-            </ol>
 
-          </section>
--->
 		<section>
 			<h2>1.1 ANALYZING PHYSIOLOGIC SIGNALS</h2>
 			<img src="assets/signal_analysis.svg" style="border-style:none;max-width:1000px;"/>
@@ -129,28 +115,8 @@
                 </section>
         </section>
 
-        <!-- -------------------------------->
 
         <section>
-<!--
-          <section>
-            <h2>2.1 MIDAS Technologies</h2>
-            <ol>
-              <li>Core technologies</li>
-              <li>Lab Streaming Layer</li>
-              <li>LSL integrated into some commercial software (Enobio)</li>
-              <li>Cross-platform</li>
-              <li>ZeroMQ</li>
-            </ol>
-          </section>
-
-   
-
-          <section>
-            <h2>2.2 MIDAS ARCHITECTURE</h2>
-            <p>The MIDAS network consists of ...</p>
-          </section>
--->
    
 
           <section>
@@ -158,20 +124,17 @@
             <img src="assets/midas_simple.svg" style="border-style:none;max-height:700px"/>
           </section>
 
-          <!-- -------------------------------->
 
           <section>
             <h2>2.1 MIDAS ARCHITECTURE</h2>
             <img src="assets/midas_multiple.svg" style="border-style:none;height:700px"/>
           </section>
 
-          <!-- -------------------------------->
 
           <section>
             <h2>2.2 MIDAS ARCHITECTURE</h2>
             <img src="assets/midas_hydra.svg" style="border-style:none;max-height:700px"/>
           </section>
-          <!-- -------------------------------->
 
           <section>
             <h2>2.3 COMMUNICATION PROTOCOLS IN MIDAS</h2>
@@ -179,7 +142,6 @@
           </section>
 
         </section>
-        <!-- -------------------------------->
 
         <section>
 	<section>
@@ -194,9 +156,9 @@
 <section>
 	<h2>3.1 INSTALLATION EASY WAY</h2>
 	<div class="fragment fade-in">
-		    <pre><code>$ wget https://raw.githubusercontent.com/bwrc/midas/master/requirements.txt
+		    <pre>$ wget https://raw.githubusercontent.com/bwrc/midas/master/requirements.txt
 $ pip3 install -r requirements.txt
-$ pip3 install git+https://github.com/bwrc/midas/</code></pre>
+$ pip3 install git+https://github.com/bwrc/midas/</pre>
 	</div>
 </section>
 
@@ -227,7 +189,6 @@ $ pip3 install git+https://github.com/bwrc/midas/</code></pre>
             <img src="assets/config_files.svg" style="border-style:none"/>
         </section>
 </section>
-        <!-- -------------------------------->
 
         <section>
           <section>
@@ -260,14 +221,12 @@ r <- getURL("localhost:8080/example_node/metric/metric_a:ch1/5")</code></pre>
         </section>
 
 </section>
-        <!-- -------------------------------->
         <section>
           <section>
             <h2>6. BUILDING A MIDAS NODE</h2>
             <p>Case example describing how to ...</p>
           </section>
 
-          <!-- -------------------------------->
           <section>
             <img src="assets/example_implementation.svg" style="border-style:none"/>
           </section>
@@ -297,7 +256,6 @@ r <- getURL("localhost:8080/example_node/metric/metric_a:ch1/5")</code></pre>
             </ul>
           </section>
 
-          <!-- Code -->
           <section data-markdown>
             <script type="text/template">
               ```python
@@ -400,7 +358,6 @@ r <- getURL("localhost:8080/example_node/metric/metric_a:ch1/5")</code></pre>
             </ol>
           </section>
 
-          <!-- Code -->
           <section data-markdown>
             <script type="text/template">
               ```python
@@ -438,7 +395,6 @@ r <- getURL("localhost:8080/example_node/metric/metric_a:ch1/5")</code></pre>
             <h2>6.10 DISPATCHER IN A NUTSHELL</h2>
             The goal of using the dispatcher is to make the connections in the network easier, since the clients only need to communicate with the dispatcher, and hence only need to be configured with the address of the dispatcher instead of being aware of the entire topology of the MIDAS network.
           </section>
-          <!-- Code -->
           <section data-markdown>
             <script type="text/template">
               ```python
@@ -467,9 +423,7 @@ r <- getURL("localhost:8080/example_node/metric/metric_a:ch1/5")</code></pre>
           </section>
           <section data-markdown>
             <script type="text/template">
-              ```html
               127.0.0.1:8080/status/nodes
-              ```
 
               ```json
               {
@@ -482,9 +436,7 @@ r <- getURL("localhost:8080/example_node/metric/metric_a:ch1/5")</code></pre>
               }
               }
               ```
-              ```html
-              127.0.0.1:8080/ecgnode/status/data
-              ```
+			  HTTP-ET 127.0.0.1:8080/ecgnode/status/data
               ```json
               {
               "ECG" : "raw ECG",
@@ -502,43 +454,38 @@ r <- getURL("localhost:8080/example_node/metric/metric_a:ch1/5")</code></pre>
             </ul>
           </section>
 
-          <!-- Code -->
-          <section data-markdown>
-            <script type="text/template">
-              ```ini
-              [dispatcher]
-              port                        = 8080
-              node_list           = ecgnode
-              ip                  = localhost
-              n_threads           = 5
-              run_pubsub_proxy    = False
-              proxy_port_in       = 5999
-              proxy_port_out      = 6000
+          <section>
+		    <pre>
+  [dispatcher]
+  port                = 8080
+  node_list           = ecgnode
+  ip                  = localhost
+  n_threads           = 5
+  run_pubsub_proxy    = False
 
-              [ecg]
-              nodename                            = ecgnode
-              nodetype                            = ECG
-              nodeid                  = 01
-              nodedesc                            = Real-time IBI node
-              primary_node                        = True
-              port_frontend           = 5021
-              port_backend            = 5022
-              port_publisher          = 5023
-              run_publisher           = False
-              n_workers               = 3
-              n_channels              = 1
-              channel_names           = ECG
-              channel_descriptions    = raw ECG
-              sampling_rate           = 256
-              buffer_size_s           = 30
-              lsl_stream_name         = ecg_data
-              secondary_data          = True
-              n_channels_secondary            = 1
-              buffer_size_secondary           = 30
-              channel_names_secondary         = ibi
-              channel_descriptions_secondary  = IBI vector
-              ```
-            </script>
+  [ecg]
+  nodename                = ecgnode
+  nodetype                = ECG
+  nodeid                  = 01
+  nodedesc                = Real-time IBI node
+  primary_node            = True
+  port_frontend           = 5021
+  port_backend            = 5022
+  port_publisher          = 5023
+  run_publisher           = False
+  n_workers               = 3
+  n_channels              = 1
+  channel_names           = ECG
+  channel_descriptions    = raw ECG
+  sampling_rate           = 256
+  buffer_size_s           = 30
+  lsl_stream_name         = ecg_data
+  secondary_data          = True
+  n_channels_secondary    = 1
+  buffer_size_secondary   = 30
+  channel_names_secondary         = ibi
+  channel_descriptions_secondary  = IBI vector
+</pre>
           </section>
           <section>
             <h2 style="padding-bottom:30px">FULL LIST OF CONFIGURATION OPTIONS</h2>
