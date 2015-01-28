@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="71cm" height="13cm" viewBox="-100 12 1416 250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="843.918" y="35.9474" width="77.2963" height="202.835"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 4; stroke-dasharray: 4; stroke: #00a0be" x="843.918" y="35.9474" width="77.2963" height="202.835"/>
+    <text font-size="12.8" style="fill: #003c78;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="882.566" y="142.215">
+      <tspan x="882.566" y="142.215"></tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #ffffff" d="M 289.061 238.962 L 510.974,238.962 L 466.591,123.421 L 333.444,123.421 L 289.061,238.962z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #00a0be" d="M 289.061 238.962 L 510.974,238.962 L 466.591,123.421 L 333.444,123.421 L 289.061,238.962"/>
+    <text font-size="12.8" style="fill: #003c78;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="400.018" y="185.992">
+      <tspan x="400.018" y="185.992"></tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="251.269" y1="238.909" x2="556.577" y2="238.909"/>
+    <polygon style="fill: #003c78" points="564.077,238.909 554.077,243.909 556.577,238.909 554.077,233.909 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="564.077,238.909 554.077,243.909 556.577,238.909 554.077,233.909 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="252.229" y1="239.898" x2="252.229" y2="68.4708"/>
+    <polygon style="fill: #003c78" points="252.229,60.9708 257.229,70.9708 252.229,68.4708 247.229,70.9708 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="252.229,60.9708 257.229,70.9708 252.229,68.4708 247.229,70.9708 "/>
+  </g>
+  <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #003c78" d="M 651.98 130.097 C 685.67,135.722 697.135,55.7513 701.466,136.23 C 705.797,216.708 725.291,25.3898 736.104,38.5225 C 746.916,51.6553 758.713,177.086 785.621,117.383 C 812.529,57.6799 787.846,113.55 832.387,187.99 C 876.928,262.43 861.941,13.3548 882.821,108.213 C 903.701,203.071 908.496,69.6999 942.424,219.168"/>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="648.206" y1="238.391" x2="953.514" y2="238.391"/>
+    <polygon style="fill: #003c78" points="961.014,238.391 951.014,243.391 953.514,238.391 951.014,233.391 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="961.014,238.391 951.014,243.391 953.514,238.391 951.014,233.391 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="649.166" y1="239.379" x2="649.166" y2="67.9526"/>
+    <polygon style="fill: #003c78" points="649.166,60.4526 654.166,70.4526 649.166,67.9526 644.166,70.4526 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="649.166,60.4526 654.166,70.4526 649.166,67.9526 644.166,70.4526 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1044.26" y="45.2622" width="268.754" height="195.025"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x="1044.26" y="45.2622" width="268.754" height="195.025"/>
+    <text font-size="12.8" style="fill: #003c78;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="1178.64" y="147.625">
+      <tspan x="1178.64" y="147.625"></tspan>
+    </text>
+  </g>
+  <text font-size="12.8" style="fill: #00a0be;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1108.48" y="117.802">
+    <tspan x="1108.48" y="117.802">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #00a0be;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1132.62" y="132.794">
+    <tspan x="1132.62" y="132.794">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #00a0be;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1148.44" y="119.237">
+    <tspan x="1148.44" y="119.237">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #00a0be;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1132.15" y="108.059">
+    <tspan x="1132.15" y="108.059">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #00a0be;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1107.53" y="146.826">
+    <tspan x="1107.53" y="146.826">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #f0aa00;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1142.97" y="201.044">
+    <tspan x="1142.97" y="201.044">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #f0aa00;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1172.46" y="182.739">
+    <tspan x="1172.46" y="182.739">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #f0aa00;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1197.67" y="168.937">
+    <tspan x="1197.67" y="168.937">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #f0aa00;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1166.04" y="210.328">
+    <tspan x="1166.04" y="210.328">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #f0aa00;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1215.15" y="131.367">
+    <tspan x="1215.15" y="131.367">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #f0aa00;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1189.7" y="201.766">
+    <tspan x="1189.7" y="201.766">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #f0aa00;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1219.19" y="152.05">
+    <tspan x="1219.19" y="152.05">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #f0aa00;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1243.33" y="167.042">
+    <tspan x="1243.33" y="167.042">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #f0aa00;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1259.15" y="153.485">
+    <tspan x="1259.15" y="153.485">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #f0aa00;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1242.86" y="142.307">
+    <tspan x="1242.86" y="142.307">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #f0aa00;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1218.24" y="181.074">
+    <tspan x="1218.24" y="181.074">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #00a0be;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1089.57" y="147.294">
+    <tspan x="1089.57" y="147.294">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #00a0be;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1119.06" y="128.988">
+    <tspan x="1119.06" y="128.988">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #00a0be;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1141.9" y="118.753">
+    <tspan x="1141.9" y="118.753">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #00a0be;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1112.64" y="156.577">
+    <tspan x="1112.64" y="156.577">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #00a0be;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1159.38" y="81.1836">
+    <tspan x="1159.38" y="81.1836">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #00a0be;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="1133.93" y="151.583">
+    <tspan x="1133.93" y="151.583">x</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #003c78;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:normal" x="394.975" y="259.314">
+    <tspan x="394.975" y="259.314">w</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #003c78;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:normal" x="806.43" y="259.314">
+    <tspan x="806.43" y="259.314">f</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #003c78;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:normal" x="622.107" y="138.018">
+    <tspan x="622.107" y="138.018">P</tspan>
+  </text>
+  <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #003c78" d="M -93.1256 184.746 C -56.7068,119.948 -59.2294,196.467 -41.9915,161.151 C -24.7536,125.834 -30.2193,192.263 -10.4588,185.115 C 9.30171,177.968 12.6652,136.765 26.96,163.673 C 41.2549,190.581 46.7205,117.846 68.1628,150.219 C 89.605,182.593 72.7876,118.266 141.739,179.65"/>
+  <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #003c78" d="M -98.5238 132.248 C -62.105,67.4499 -52.8554,118.323 -45.7754,77.4837 C -38.6954,36.6448 -35.6176,139.765 -15.8571,132.617 C 3.90344,125.47 12.1774,103.494 20.6535,132.561 C 29.1296,161.628 41.3222,65.3477 62.7645,97.7213 C 84.2067,130.095 67.3893,65.7681 136.341,127.152"/>
+  <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #003c78" d="M -97.1364 248.12 C -60.7176,183.322 -54.638,263.093 -46.0023,224.525 C -37.3667,185.956 -24.3332,236.829 -19.2879,205.296 C -14.2427,173.764 -6.67486,250.283 22.9492,227.047 C 52.5732,203.812 39.9935,213.705 61.4358,246.079 C 82.878,278.452 69.4241,191.001 137.728,243.024"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke-dasharray: 4; stroke: #828282" x1="1044.26" y1="240.287" x2="1313.02" y2="45.2622"/>
+  <text font-size="12.8" style="fill: #003c78;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:normal" x="5.5507" y="25.3261">
+    <tspan x="5.5507" y="25.3261">Signal</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #003c78;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:normal" x="357.546" y="25.3261">
+    <tspan x="357.546" y="25.3261">Preprocessing</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #003c78;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:normal" x="753.541" y="25.3261">
+    <tspan x="753.541" y="25.3261">Feature extraction</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #003c78;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:normal" x="1135.27" y="34.8394">
+    <tspan x="1135.27" y="34.8394">Classification</tspan>
+  </text>
+</svg>

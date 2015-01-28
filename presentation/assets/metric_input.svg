@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="27cm" height="8cm" viewBox="209 270 522 153" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="286.053" y="345.116" width="444.063" height="58.6898"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #828282" x="286.053" y="345.116" width="444.063" height="58.6898"/>
+    <text font-size="12.8016" style="fill: #003c78;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="508.084" y="379.31">
+      <tspan x="508.084" y="379.31"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="286.057" y="287.956" width="444.063" height="58.6898"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #828282" x="286.057" y="287.956" width="444.063" height="58.6898"/>
+    <text font-size="12.8016" style="fill: #003c78;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="508.088" y="322.15">
+      <tspan x="508.088" y="322.15"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #f0f0f0" x="298.989" y="298.3" width="98" height="38.002"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #f0f0f0" x="298.989" y="298.3" width="98" height="38.002"/>
+    <text font-size="12.8016" style="fill: #003c78;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="347.989" y="322.15">
+      <tspan x="347.989" y="322.15">samples</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #f0f0f0" x="618.539" y="298.3" width="98" height="38.002"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #f0f0f0" x="618.539" y="298.3" width="98" height="38.002"/>
+    <text font-size="12.8016" style="fill: #003c78;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="667.539" y="322.15">
+      <tspan x="667.539" y="322.15">samples</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #f0f0f0" x="420.277" y="298.3" width="98" height="38.002"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #f0f0f0" x="420.277" y="298.3" width="98" height="38.002"/>
+    <text font-size="12.8016" style="fill: #003c78;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="469.277" y="322.15">
+      <tspan x="469.277" y="322.15">samples</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #f0f0f0" x="298.989" y="355.46" width="98" height="38.002"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #f0f0f0" x="298.989" y="355.46" width="98" height="38.002"/>
+    <text font-size="12.8016" style="fill: #003c78;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="347.989" y="379.31">
+      <tspan x="347.989" y="379.31">timestamps</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #f0f0f0" x="618.539" y="355.46" width="98" height="38.002"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #f0f0f0" x="618.539" y="355.46" width="98" height="38.002"/>
+    <text font-size="12.8016" style="fill: #003c78;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="667.539" y="379.31">
+      <tspan x="667.539" y="379.31">timestamps</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #f0f0f0" x="420.277" y="355.46" width="98" height="38.002"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #f0f0f0" x="420.277" y="355.46" width="98" height="38.002"/>
+    <text font-size="12.8016" style="fill: #003c78;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="469.277" y="379.31">
+      <tspan x="469.277" y="379.31">timestamps</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #f0f0f0" x="209.592" y="352.154" width="55.55" height="41"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #f0f0f0" x="209.592" y="352.154" width="55.55" height="41"/>
+    <text font-size="12.8016" style="fill: #003c78;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="237.367" y="377.503">
+      <tspan x="237.367" y="377.503">'time'</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #f0f0f0" x="209.692" y="295.933" width="55.35" height="41"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #f0f0f0" x="209.692" y="295.933" width="55.35" height="41"/>
+    <text font-size="12.8016" style="fill: #003c78;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="237.367" y="321.282">
+      <tspan x="237.367" y="321.282">'data'</tspan>
+    </text>
+  </g>
+  <text font-size="12.8016" style="fill: #003c78;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:normal" x="222.192" y="283.219">
+    <tspan x="222.192" y="283.219">Keys</tspan>
+  </text>
+  <text font-size="12.8016" style="fill: #003c78;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:normal" x="316.762" y="419.145">
+    <tspan x="316.762" y="419.145">channel 0</tspan>
+  </text>
+  <text font-size="12.8016" style="fill: #003c78;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:normal" x="446.186" y="419.145">
+    <tspan x="446.186" y="419.145">channel 1</tspan>
+  </text>
+  <text font-size="12.8016" style="fill: #003c78;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:normal" x="635.586" y="419.145">
+    <tspan x="635.586" y="419.145">channel N</tspan>
+  </text>
+  <text font-size="16.9333" style="fill: #003c78;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:normal" x="555.989" y="324.051">
+    <tspan x="555.989" y="324.051">...</tspan>
+  </text>
+  <text font-size="16.9333" style="fill: #003c78;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:normal" x="555.989" y="381.211">
+    <tspan x="555.989" y="381.211">...</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #003c78;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:normal" x="290.603" y="283.219">
+    <tspan x="290.603" y="283.219">Values</tspan>
+  </text>
+</svg>

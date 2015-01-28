@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="92cm" height="54cm" viewBox="-661 86 1837 1080" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: #00a0be" cx="226.807" cy="290.847" rx="57.7067" ry="54.1335"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="226.807" cy="290.847" rx="57.7067" ry="54.1335"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="226.807" y="287.402">
+      <tspan x="226.807" y="287.402">MIDAS</tspan>
+      <tspan x="226.807" y="305.097">dispatcher</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #00a0be" cx="226.807" cy="837.071" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="226.807" cy="837.071" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="226.807" y="833.626">
+      <tspan x="226.807" y="833.626">MIDAS</tspan>
+      <tspan x="226.807" y="851.321">node</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #f0aa00" cx="226.807" cy="980.537" rx="39.0015" ry="38.9646"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="226.807" cy="980.537" rx="39.0015" ry="38.9646"/>
+    <text font-size="14.1563" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="226.807" y="985.94">
+      <tspan x="226.807" y="985.94">Sensor</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #828282" cx="226.807" cy="124.749" rx="34.8303" ry="35.8799"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="226.807" cy="124.749" rx="34.8303" ry="35.8799"/>
+    <text font-size="14.1563" style="fill: #f0f0f0;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="226.807" y="130.152">
+      <tspan x="226.807" y="130.152">Client</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="226.807" y1="162.634" x2="226.807" y2="234.714"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="226.807" y1="346.923" x2="226.807" y2="785.196"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="226.807" y1="889.067" x2="226.807" y2="939.592"/>
+  <g>
+    <ellipse style="fill: #00a0be" cx="840.769" cy="713.276" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="840.769" cy="713.276" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="840.769" y="709.831">
+      <tspan x="840.769" y="709.831">MIDAS</tspan>
+      <tspan x="840.769" y="727.526">node</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #f0aa00" cx="840.769" cy="856.743" rx="39.0015" ry="38.9646"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="840.769" cy="856.743" rx="39.0015" ry="38.9646"/>
+    <text font-size="14.1563" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="840.769" y="862.145">
+      <tspan x="840.769" y="862.145">Sensor</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="840.769" y1="765.272" x2="840.769" y2="815.797"/>
+  <g>
+    <ellipse style="fill: #00a0be" cx="982.369" cy="713.276" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="982.369" cy="713.276" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="982.369" y="709.831">
+      <tspan x="982.369" y="709.831">MIDAS</tspan>
+      <tspan x="982.369" y="727.526">node</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #f0aa00" cx="982.369" cy="856.743" rx="39.0015" ry="38.9646"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="982.369" cy="856.743" rx="39.0015" ry="38.9646"/>
+    <text font-size="14.1563" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="982.369" y="862.145">
+      <tspan x="982.369" y="862.145">Sensor</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="982.369" y1="765.272" x2="982.369" y2="815.797"/>
+  <g>
+    <ellipse style="fill: #00a0be" cx="1123.97" cy="713.276" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="1123.97" cy="713.276" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="1123.97" y="709.831">
+      <tspan x="1123.97" y="709.831">MIDAS</tspan>
+      <tspan x="1123.97" y="727.526">node</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #f0aa00" cx="1123.97" cy="856.743" rx="39.0015" ry="38.9646"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="1123.97" cy="856.743" rx="39.0015" ry="38.9646"/>
+    <text font-size="14.1563" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="1123.97" y="862.145">
+      <tspan x="1123.97" y="862.145">Sensor</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="1123.97" y1="765.272" x2="1123.97" y2="815.797"/>
+  <g>
+    <ellipse style="fill: #00a0be" cx="-608.215" cy="713.276" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="-608.215" cy="713.276" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="-608.215" y="709.831">
+      <tspan x="-608.215" y="709.831">MIDAS</tspan>
+      <tspan x="-608.215" y="727.526">node</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #f0aa00" cx="-608.215" cy="856.743" rx="39.0015" ry="38.9646"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="-608.215" cy="856.743" rx="39.0015" ry="38.9646"/>
+    <text font-size="14.1563" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="-608.215" y="862.145">
+      <tspan x="-608.215" y="862.145">Sensor</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="-608.215" y1="765.272" x2="-608.215" y2="815.797"/>
+  <g>
+    <ellipse style="fill: #00a0be" cx="-466.615" cy="713.276" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="-466.615" cy="713.276" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="-466.615" y="709.831">
+      <tspan x="-466.615" y="709.831">MIDAS</tspan>
+      <tspan x="-466.615" y="727.526">node</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #f0aa00" cx="-466.615" cy="856.743" rx="39.0015" ry="38.9646"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="-466.615" cy="856.743" rx="39.0015" ry="38.9646"/>
+    <text font-size="14.1563" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="-466.615" y="862.145">
+      <tspan x="-466.615" y="862.145">Sensor</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="-466.615" y1="765.272" x2="-466.615" y2="815.797"/>
+  <g>
+    <ellipse style="fill: #00a0be" cx="-325.015" cy="713.276" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="-325.015" cy="713.276" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="-325.015" y="709.831">
+      <tspan x="-325.015" y="709.831">MIDAS</tspan>
+      <tspan x="-325.015" y="727.526">node</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #f0aa00" cx="-325.015" cy="856.743" rx="39.0015" ry="38.9646"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="-325.015" cy="856.743" rx="39.0015" ry="38.9646"/>
+    <text font-size="14.1563" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="-325.015" y="862.145">
+      <tspan x="-325.015" y="862.145">Sensor</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="-325.015" y1="765.272" x2="-325.015" y2="815.797"/>
+  <g>
+    <ellipse style="fill: #00a0be" cx="623.08" cy="976.437" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="623.08" cy="976.437" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="623.08" y="972.992">
+      <tspan x="623.08" y="972.992">MIDAS</tspan>
+      <tspan x="623.08" y="990.687">node</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #f0aa00" cx="623.08" cy="1119.9" rx="39.0015" ry="38.9646"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="623.08" cy="1119.9" rx="39.0015" ry="38.9646"/>
+    <text font-size="14.1563" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="623.08" y="1125.31">
+      <tspan x="623.08" y="1125.31">Sensor</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="623.08" y1="1028.43" x2="623.08" y2="1078.96"/>
+  <g>
+    <ellipse style="fill: #00a0be" cx="773.18" cy="976.437" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="773.18" cy="976.437" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="773.18" y="972.992">
+      <tspan x="773.18" y="972.992">MIDAS</tspan>
+      <tspan x="773.18" y="990.687">node</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #f0aa00" cx="773.18" cy="1119.9" rx="39.0015" ry="38.9646"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="773.18" cy="1119.9" rx="39.0015" ry="38.9646"/>
+    <text font-size="14.1563" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="773.18" y="1125.31">
+      <tspan x="773.18" y="1125.31">Sensor</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="773.18" y1="1028.43" x2="773.18" y2="1078.96"/>
+  <g>
+    <ellipse style="fill: #00a0be" cx="-55.4588" cy="981.939" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="-55.4588" cy="981.939" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="-55.4588" y="978.494">
+      <tspan x="-55.4588" y="978.494">MIDAS</tspan>
+      <tspan x="-55.4588" y="996.189">node</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #f0aa00" cx="-55.4588" cy="1125.41" rx="39.0015" ry="38.9646"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="-55.4588" cy="1125.41" rx="39.0015" ry="38.9646"/>
+    <text font-size="14.1563" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="-55.4588" y="1130.81">
+      <tspan x="-55.4588" y="1130.81">Sensor</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="-55.4588" y1="1033.93" x2="-55.4588" y2="1084.46"/>
+  <g>
+    <ellipse style="fill: #00a0be" cx="490.784" cy="978.271" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="490.784" cy="978.271" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="490.784" y="974.826">
+      <tspan x="490.784" y="974.826">MIDAS</tspan>
+      <tspan x="490.784" y="992.521">node</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #f0aa00" cx="490.784" cy="1121.74" rx="39.0015" ry="38.9646"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="490.784" cy="1121.74" rx="39.0015" ry="38.9646"/>
+    <text font-size="14.1563" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="490.784" y="1127.14">
+      <tspan x="490.784" y="1127.14">Sensor</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="490.784" y1="1030.27" x2="490.784" y2="1080.79"/>
+  <g>
+    <ellipse style="fill: #00a0be" cx="-354.65" cy="981.939" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="-354.65" cy="981.939" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="-354.65" y="978.494">
+      <tspan x="-354.65" y="978.494">MIDAS</tspan>
+      <tspan x="-354.65" y="996.189">node</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #f0aa00" cx="-354.65" cy="1125.41" rx="39.0015" ry="38.9646"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="-354.65" cy="1125.41" rx="39.0015" ry="38.9646"/>
+    <text font-size="14.1563" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="-354.65" y="1130.81">
+      <tspan x="-354.65" y="1130.81">Sensor</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="-354.65" y1="1033.93" x2="-354.65" y2="1084.46"/>
+  <g>
+    <ellipse style="fill: #00a0be" cx="-204.55" cy="981.939" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="-204.55" cy="981.939" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="-204.55" y="978.494">
+      <tspan x="-204.55" y="978.494">MIDAS</tspan>
+      <tspan x="-204.55" y="996.189">node</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #f0aa00" cx="-204.55" cy="1125.41" rx="39.0015" ry="38.9646"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="-204.55" cy="1125.41" rx="39.0015" ry="38.9646"/>
+    <text font-size="14.1563" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="-204.55" y="1130.81">
+      <tspan x="-204.55" y="1130.81">Sensor</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="-204.55" y1="1033.93" x2="-204.55" y2="1084.46"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="-321.175" y1="942.152" x2="189.827" y2="334.8"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="-177.037" y1="937.86" x2="196.635" y2="339.187"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="-35.7972" y1="933.8" x2="205.405" y2="343.246"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="472.151" y1="929.748" x2="247.08" y2="343.64"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="597.104" y1="931.495" x2="255.311" y2="340.162"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="740.832" y1="935.847" x2="262.61" y2="335.773"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="-561.823" y1="689.807" x2="174.229" y2="317.446"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="-422.207" y1="686.224" x2="177.373" y2="320.962"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="-283.756" y1="681.692" x2="180.513" y2="326.286"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="797.927" y1="683.8" x2="274.96" y2="323.978"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="936.979" y1="687.899" x2="278.111" y2="319.531"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="1076.92" y1="691.126" x2="280.169" y2="315.973"/>
+  <g>
+    <ellipse style="fill: #828282" cx="581.636" cy="124.749" rx="34.8303" ry="35.8799"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="581.636" cy="124.749" rx="34.8303" ry="35.8799"/>
+    <text font-size="14.1563" style="fill: #f0f0f0;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="581.636" y="130.152">
+      <tspan x="581.636" y="130.152">Client</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #828282" cx="-96.7586" cy="124.749" rx="34.8303" ry="35.8799"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="-96.7586" cy="124.749" rx="34.8303" ry="35.8799"/>
+    <text font-size="14.1563" style="fill: #f0f0f0;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="-96.7586" y="130.152">
+      <tspan x="-96.7586" y="130.152">Client</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #828282" cx="72.1523" cy="124.749" rx="34.8303" ry="35.8799"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="72.1523" cy="124.749" rx="34.8303" ry="35.8799"/>
+    <text font-size="14.1563" style="fill: #f0f0f0;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="72.1523" y="130.152">
+      <tspan x="72.1523" y="130.152">Client</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #828282" cx="404.289" cy="124.749" rx="34.8303" ry="35.8799"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="404.289" cy="124.749" rx="34.8303" ry="35.8799"/>
+    <text font-size="14.1563" style="fill: #f0f0f0;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="404.289" y="130.152">
+      <tspan x="404.289" y="130.152">Client</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="-63.8077" y1="141.664" x2="174.413" y2="263.952"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="97.6197" y1="152.101" x2="187.478" y2="248.608"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="377.055" y1="150.236" x2="269.124" y2="251.244"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="548.154" y1="140.422" x2="280.213" y2="265.847"/>
+</svg>

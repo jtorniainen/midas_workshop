@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="21cm" height="27cm" viewBox="23 95 403 524" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: #00a0be" cx="226.807" cy="290.847" rx="57.7067" ry="54.1335"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="226.807" cy="290.847" rx="57.7067" ry="54.1335"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="226.807" y="287.402">
+      <tspan x="226.807" y="287.402">MIDAS</tspan>
+      <tspan x="226.807" y="305.097">dispatcher</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #00a0be" cx="226.807" cy="427.314" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="226.807" cy="427.314" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="226.807" y="423.868">
+      <tspan x="226.807" y="423.868">MIDAS</tspan>
+      <tspan x="226.807" y="441.564">node</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #f0aa00" cx="226.807" cy="570.78" rx="39.0015" ry="38.9646"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="226.807" cy="570.78" rx="39.0015" ry="38.9646"/>
+    <text font-size="14.1563" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="226.807" y="576.182">
+      <tspan x="226.807" y="576.182">Sensor</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #828282" cx="226.807" cy="133.28" rx="34.8303" ry="35.8799"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="226.807" cy="133.28" rx="34.8303" ry="35.8799"/>
+    <text font-size="14.1563" style="fill: #f0f0f0;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="226.807" y="138.682">
+      <tspan x="226.807" y="138.682">Client</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="226.807" y1="171.152" x2="226.807" y2="234.712"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="226.807" y1="346.97" x2="226.807" y2="375.322"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="226.807" y1="479.31" x2="226.807" y2="529.835"/>
+  <g>
+    <ellipse style="fill: #00a0be" cx="374.1" cy="434.4" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="374.1" cy="434.4" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="374.1" y="430.955">
+      <tspan x="374.1" y="430.955">MIDAS</tspan>
+      <tspan x="374.1" y="448.65">node</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #f0aa00" cx="374.1" cy="577.866" rx="39.0015" ry="38.9646"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="374.1" cy="577.866" rx="39.0015" ry="38.9646"/>
+    <text font-size="14.1563" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="374.1" y="583.269">
+      <tspan x="374.1" y="583.269">Sensor</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="374.1" y1="486.396" x2="374.1" y2="536.921"/>
+  <g>
+    <ellipse style="fill: #00a0be" cx="75.2" cy="428.8" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="75.2" cy="428.8" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="75.2" y="425.355">
+      <tspan x="75.2" y="425.355">MIDAS</tspan>
+      <tspan x="75.2" y="443.05">node</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #f0aa00" cx="75.2" cy="572.266" rx="39.0015" ry="38.9646"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="75.2" cy="572.266" rx="39.0015" ry="38.9646"/>
+    <text font-size="14.1563" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="75.2" y="577.669">
+      <tspan x="75.2" y="577.669">Sensor</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="75.2" y1="480.796" x2="75.2" y2="531.321"/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="75.2,378.8 176.006,320.319 "/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="374.1,384.4 275.713,321.91 "/>
+</svg>

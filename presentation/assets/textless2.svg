@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="34cm" height="39cm" viewBox="167 95 669 769" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: #828282" cx="501.101" cy="487.21" rx="330.001" ry="303.839"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 8; stroke: #003c78" cx="501.101" cy="487.21" rx="330.001" ry="303.839"/>
+    <text font-size="12.8" style="fill: #f0f0f0;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="501.101" y="492.06">
+      <tspan x="501.101" y="492.06"></tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #003c78" d="M 461.728 219.264 L 604.395,219.264 C 624.093,219.264 640.061,230.905 640.061,245.264 C 640.061,259.624 624.093,271.264 604.395,271.264 L 461.728,271.264 C 442.03,271.264 426.061,259.624 426.061,245.264 C 426.061,230.905 442.03,219.264 461.728,219.264z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" d="M 461.728 219.264 L 604.395,219.264 C 624.093,219.264 640.061,230.905 640.061,245.264 C 640.061,259.624 624.093,271.264 604.395,271.264 L 461.728,271.264 C 442.03,271.264 426.061,259.624 426.061,245.264 C 426.061,230.905 442.03,219.264 461.728,219.264"/>
+    <text font-size="16.9333" style="fill: #f0f0f0;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="533.061" y="251.614">
+      <tspan x="533.061" y="251.614"></tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #003c78" d="M 307.416 350.23 L 405.266,350.23 C 418.776,350.23 429.728,359.542 429.728,371.03 C 429.728,382.518 418.776,391.83 405.266,391.83 L 307.416,391.83 C 293.906,391.83 282.953,382.518 282.953,371.03 C 282.953,359.542 293.906,350.23 307.416,350.23z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" d="M 307.416 350.23 L 405.266,350.23 C 418.776,350.23 429.728,359.542 429.728,371.03 C 429.728,382.518 418.776,391.83 405.266,391.83 L 307.416,391.83 C 293.906,391.83 282.953,382.518 282.953,371.03 C 282.953,359.542 293.906,350.23 307.416,350.23"/>
+    <text font-size="16.9333" style="fill: #f0f0f0;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="356.341" y="377.38">
+      <tspan x="356.341" y="377.38"></tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #003c78" d="M 484.136 350.23 L 581.986,350.23 C 595.497,350.23 606.449,359.542 606.449,371.03 C 606.449,382.518 595.497,391.83 581.986,391.83 L 484.136,391.83 C 470.626,391.83 459.674,382.518 459.674,371.03 C 459.674,359.542 470.626,350.23 484.136,350.23z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" d="M 484.136 350.23 L 581.986,350.23 C 595.497,350.23 606.449,359.542 606.449,371.03 C 606.449,382.518 595.497,391.83 581.986,391.83 L 484.136,391.83 C 470.626,391.83 459.674,382.518 459.674,371.03 C 459.674,359.542 470.626,350.23 484.136,350.23"/>
+    <text font-size="16.9333" style="fill: #f0f0f0;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="533.061" y="377.38">
+      <tspan x="533.061" y="377.38"></tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #003c78" d="M 649.206 350.23 L 747.056,350.23 C 760.566,350.23 771.518,359.542 771.518,371.03 C 771.518,382.518 760.566,391.83 747.056,391.83 L 649.206,391.83 C 635.695,391.83 624.743,382.518 624.743,371.03 C 624.743,359.542 635.695,350.23 649.206,350.23z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" d="M 649.206 350.23 L 747.056,350.23 C 760.566,350.23 771.518,359.542 771.518,371.03 C 771.518,382.518 760.566,391.83 747.056,391.83 L 649.206,391.83 C 635.695,391.83 624.743,382.518 624.743,371.03 C 624.743,359.542 635.695,350.23 649.206,350.23"/>
+    <text font-size="16.9333" style="fill: #f0f0f0;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="698.131" y="377.38">
+      <tspan x="698.131" y="377.38"></tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #003c78" d="M 404.395 457.43 L 661.728,457.43 C 697.258,457.43 726.061,474.219 726.061,494.93 C 726.061,515.641 697.258,532.43 661.728,532.43 L 404.395,532.43 C 368.864,532.43 340.061,515.641 340.061,494.93 C 340.061,474.219 368.864,457.43 404.395,457.43z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" d="M 404.395 457.43 L 661.728,457.43 C 697.258,457.43 726.061,474.219 726.061,494.93 C 726.061,515.641 697.258,532.43 661.728,532.43 L 404.395,532.43 C 368.864,532.43 340.061,515.641 340.061,494.93 C 340.061,474.219 368.864,457.43 404.395,457.43"/>
+    <text font-size="16.9333" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="533.061" y="501.28">
+      <tspan x="533.061" y="501.28"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #f0f0f0" x="233.938" y="573.892" width="273.159" height="66.3333"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x="233.938" y="573.892" width="273.159" height="66.3333"/>
+    <text font-size="16.9333" style="fill: #f0f0f0;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="370.517" y="613.525">
+      <tspan x="370.517" y="613.525"></tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #f0f0f0" x="547.266" y="573.892" width="142.1" height="66.3333"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x="547.266" y="573.892" width="142.1" height="66.3333"/>
+    <text font-size="16.9333" style="fill: #f0f0f0;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="618.316" y="613.525">
+      <tspan x="618.316" y="613.525"></tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #003c78" d="M 460.798 681.578 L 605.073,681.578 C 624.993,681.578 641.142,693.219 641.142,707.578 C 641.142,721.938 624.993,733.578 605.073,733.578 L 460.798,733.578 C 440.878,733.578 424.729,721.938 424.729,707.578 C 424.729,693.219 440.878,681.578 460.798,681.578z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" d="M 460.798 681.578 L 605.073,681.578 C 624.993,681.578 641.142,693.219 641.142,707.578 C 641.142,721.938 624.993,733.578 605.073,733.578 L 460.798,733.578 C 440.878,733.578 424.729,721.938 424.729,707.578 C 424.729,693.219 440.878,681.578 460.798,681.578"/>
+    <text font-size="16.9333" style="fill: #f0f0f0;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="532.935" y="713.928">
+      <tspan x="532.935" y="713.928"></tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #003c78" cx="261.76" cy="491.078" rx="44.878" ry="41.9233"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="261.76" cy="491.078" rx="44.878" ry="41.9233"/>
+    <text font-size="16.9333" style="fill: #f0f0f0;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="261.76" y="497.544">
+      <tspan x="261.76" y="497.544"></tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 8; stroke: #003c78" x1="532.873" y1="735.574" x2="532.653" y2="834.733"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 8; stroke: #003c78" x1="532.609" y1="854.733" x2="532.618" y2="850.733"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 8; stroke: #003c78" x1="532.624" y1="848.066" x2="532.632" y2="844.066"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 8; stroke: #003c78" x1="532.638" y1="841.4" x2="532.647" y2="837.4"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 8; stroke: #003c78" x1="533.025" y1="217.266" x2="532.913" y2="129.746"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 8; stroke: #003c78" x1="532.887" y1="109.746" x2="532.892" y2="113.746"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 8; stroke: #003c78" x1="532.895" y1="116.413" x2="532.901" y2="120.413"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 8; stroke: #003c78" x1="532.904" y1="123.079" x2="532.909" y2="127.079"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 8; stroke: #003c78" x1="261.727" y1="447.162" x2="261.485" y2="124.344"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 8; stroke: #003c78" x1="261.47" y1="104.344" x2="261.473" y2="108.344"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 8; stroke: #003c78" x1="261.475" y1="111.011" x2="261.478" y2="115.011"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 8; stroke: #003c78" x1="261.48" y1="117.678" x2="261.483" y2="121.678"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="533.061,283.236 533.061,310.747 356.341,310.747 356.341,338.258 "/>
+    <polygon style="fill: #003c78" points="533.061,275.736 538.061,285.736 533.061,283.236 528.061,285.736 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="533.061,275.736 538.061,285.736 533.061,283.236 528.061,285.736 "/>
+    <polygon style="fill: #003c78" points="356.341,345.758 351.341,335.758 356.341,338.258 361.341,335.758 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="356.341,345.758 351.341,335.758 356.341,338.258 361.341,335.758 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="533.061,283.236 533.061,310.747 698.131,310.747 698.131,338.258 "/>
+    <polygon style="fill: #003c78" points="533.061,275.736 538.061,285.736 533.061,283.236 528.061,285.736 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="533.061,275.736 538.061,285.736 533.061,283.236 528.061,285.736 "/>
+    <polygon style="fill: #003c78" points="698.131,345.758 693.131,335.758 698.131,338.258 703.131,335.758 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="698.131,345.758 693.131,335.758 698.131,338.258 703.131,335.758 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="356.341,403.802 356.341,424.63 468.728,424.63 468.728,445.458 "/>
+    <polygon style="fill: #003c78" points="356.341,396.302 361.341,406.302 356.341,403.802 351.341,406.302 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="356.341,396.302 361.341,406.302 356.341,403.802 351.341,406.302 "/>
+    <polygon style="fill: #003c78" points="468.728,452.958 463.728,442.958 468.728,445.458 473.728,442.958 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="468.728,452.958 463.728,442.958 468.728,445.458 473.728,442.958 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="698.131,403.802 698.131,424.63 597.395,424.63 597.395,445.458 "/>
+    <polygon style="fill: #003c78" points="698.131,396.302 703.131,406.302 698.131,403.802 693.131,406.302 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="698.131,396.302 703.131,406.302 698.131,403.802 693.131,406.302 "/>
+    <polygon style="fill: #003c78" points="597.395,452.958 592.395,442.958 597.395,445.458 602.395,442.958 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="597.395,452.958 592.395,442.958 597.395,445.458 602.395,442.958 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="533.061" y1="403.802" x2="533.061" y2="445.458"/>
+    <polygon style="fill: #003c78" points="533.061,396.302 538.061,406.302 533.061,403.802 528.061,406.302 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="533.061,396.302 538.061,406.302 533.061,403.802 528.061,406.302 "/>
+    <polygon style="fill: #003c78" points="533.061,452.958 528.061,442.958 533.061,445.458 538.061,442.958 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="533.061,452.958 528.061,442.958 533.061,445.458 538.061,442.958 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="533.061" y1="283.236" x2="533.061" y2="338.258"/>
+    <polygon style="fill: #003c78" points="533.061,275.736 538.061,285.736 533.061,283.236 528.061,285.736 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="533.061,275.736 538.061,285.736 533.061,283.236 528.061,285.736 "/>
+    <polygon style="fill: #003c78" points="533.061,345.758 528.061,335.758 533.061,338.258 538.061,335.758 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="533.061,345.758 528.061,335.758 533.061,338.258 538.061,335.758 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="532.935,681.578 532.935,660.902 370.517,660.902 370.517,652.197 "/>
+    <polygon style="fill: #003c78" points="370.517,644.697 375.517,654.697 370.517,652.197 365.517,654.697 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="370.517,644.697 375.517,654.697 370.517,652.197 365.517,654.697 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="618.316,561.92 618.316,553.161 597.395,553.161 597.395,544.402 "/>
+    <polygon style="fill: #003c78" points="618.316,569.42 613.316,559.42 618.316,561.92 623.316,559.42 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="618.316,569.42 613.316,559.42 618.316,561.92 623.316,559.42 "/>
+    <polygon style="fill: #003c78" points="597.395,536.902 602.395,546.902 597.395,544.402 592.395,546.902 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="597.395,536.902 602.395,546.902 597.395,544.402 592.395,546.902 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="370.517,561.92 370.517,553.161 468.728,553.161 468.728,544.402 "/>
+    <polygon style="fill: #003c78" points="370.517,569.42 365.517,559.42 370.517,561.92 375.517,559.42 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="370.517,569.42 365.517,559.42 370.517,561.92 375.517,559.42 "/>
+    <polygon style="fill: #003c78" points="468.728,536.902 473.728,546.902 468.728,544.402 463.728,546.902 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="468.728,536.902 473.728,546.902 468.728,544.402 463.728,546.902 "/>
+  </g>
+</svg>

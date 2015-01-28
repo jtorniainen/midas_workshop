@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="18cm" height="19cm" viewBox="337 111 352 366" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: #00a0be" cx="397.067" cy="233.534" rx="57.7067" ry="54.1335"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="397.067" cy="233.534" rx="57.7067" ry="54.1335"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="397.067" y="230.088">
+      <tspan x="397.067" y="230.088">MIDAS</tspan>
+      <tspan x="397.067" y="247.784">dispatcher</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #00a0be" cx="397.068" cy="370" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="397.068" cy="370" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="397.068" y="366.555">
+      <tspan x="397.068" y="366.555">MIDAS</tspan>
+      <tspan x="397.068" y="384.25">node</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="397.066" y1="113.839" x2="397.066" y2="177.412"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="397.067" y1="289.656" x2="397.068" y2="318.009"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="397.068" y1="421.987" x2="397.068" y2="472.522"/>
+  <text font-size="20.2523" style="fill: #003c78;text-anchor:start;font-family:Rama Gothic E;font-style:normal;font-weight:600" x="400.9" y="130">
+    <tspan x="400.9" y="130">HTTP:</tspan>
+  </text>
+  <text font-size="20.2523" style="fill: #003c78;text-anchor:start;font-family:Rama Gothic E;font-style:normal;font-weight:600" x="400.9" y="310">
+    <tspan x="400.9" y="310">ZMQ:</tspan>
+  </text>
+  <text font-size="20.2523" style="fill: #003c78;text-anchor:start;font-family:Rama Gothic E;font-style:normal;font-weight:600" x="400.9" y="471">
+    <tspan x="400.9" y="471">LSL:</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #828282;text-anchor:start;font-family:Rama Gothic E;font-style:normal;font-weight:normal" x="445.957" y="468.575">
+    <tspan x="445.957" y="468.575">https://code.google.com/p/labstreaminglayer/</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #828282;text-anchor:start;font-family:Rama Gothic E;font-style:normal;font-weight:normal" x="445.957" y="307.575">
+    <tspan x="445.957" y="307.575">http://zeromq.org/</tspan>
+  </text>
+  <text font-size="12.8" style="fill: #828282;text-anchor:start;font-family:Rama Gothic E;font-style:normal;font-weight:normal" x="445.957" y="127.575">
+    <tspan x="445.957" y="127.575">http://en.wikipedia.org/wiki/Representational_state_transfer</tspan>
+  </text>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="6cm" height="26cm" viewBox="337 38 120 517" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: #00a0be" cx="397.067" cy="233.534" rx="57.7067" ry="54.1335"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="397.067" cy="233.534" rx="57.7067" ry="54.1335"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="397.067" y="230.088">
+      <tspan x="397.067" y="230.088">MIDAS</tspan>
+      <tspan x="397.067" y="247.784">dispatcher</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #00a0be" cx="397.067" cy="370" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="397.067" cy="370" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="397.067" y="366.555">
+      <tspan x="397.067" y="366.555">MIDAS</tspan>
+      <tspan x="397.067" y="384.25">node</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #f0aa00" cx="397.067" cy="513.466" rx="39.0015" ry="38.9646"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="397.067" cy="513.466" rx="39.0015" ry="38.9646"/>
+    <text font-size="14.1563" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="397.067" y="518.869">
+      <tspan x="397.067" y="518.869">Sensor</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #828282" cx="397.067" cy="75.9664" rx="34.8303" ry="35.8799"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="397.067" cy="75.9664" rx="34.8303" ry="35.8799"/>
+    <text font-size="14.1563" style="fill: #f0f0f0;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="397.067" y="81.3687">
+      <tspan x="397.067" y="81.3687">Client</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="397.067" y1="113.839" x2="397.067" y2="177.398"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="397.067" y1="289.656" x2="397.067" y2="318.009"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="397.067" y1="421.996" x2="397.067" y2="472.521"/>
+</svg>

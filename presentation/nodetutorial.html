@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>MIDAS Workshop</title>
+
+    <link rel="stylesheet" href="res/reveal.css">
+    <link rel="stylesheet" href="res/bwrc.css" id="theme">
+    <link rel="stylesheet" href="res/zenburn2.css">
+    <!-- <link rel="stylesheet" href="res/pdf2.css"> -->
+  </head>
+
+  <body>
+    <div class="reveal">
+
+      <div class="slides" style="vertical-align:middle">
+        <section>
+          <img src="assets/BWRC_logo.svg" style="border-style:none;height:700px"/>
+        </section>
+
+        <!-- -------------------------------->
+        <section>
+          <h2>MIDAS WORKSHOP</h2>
+          <h4>Finnish Institute of Occupational Health</h4>
+        </section>
+        <!-- -------------------------------->
+        <section>
+          <p>
+            All workshop material available at
+          </p>
+          <h4 style="font-size:60px">github.com/bwrc/midas/tree/master/<font color="#003c78">tutorial</font></h4>
+        </section>
+        <!-- -------------------------------->
+        <section>
+          <h2>Outline</h2>
+          <ol>
+            <li>Background and overview</li>
+            <li>Components of a MIDAS network</li>
+            <li>Installation</li>
+            <li>How to use MIDAS</li>
+            <li>The MIDAS API</li>
+            <li>Building a MIDAS node -- case example </li>
+            <li>Supporting tools</li>
+            <li>Contributing to MIDAS</li>
+            <li>Future</li>
+            <li>Q & A</li>
+          </ol>
+        </section>
+        <!-- -------------------------------->
+        <section>
+          <table class="reveal" style="margin-top:auto;margin-bottom:auto;margin-left:auto;margin-right:auto">
+
+            <tr>
+              <td style="text-align:center"><h2 style="font-size:200px">M</h2></td>
+              <td style="text-align:center"><h2 style="font-size:200px">I</h2></td>
+              <td style="text-align:center"><h2 style="font-size:200px">D</h2></td>
+              <td style="text-align:center"><h2 style="font-size:200px"><font color="#f0aa00">A</h2></td>
+              <td style="text-align:center"><h2 style="font-size:200px">S</h2></td>
+            </tr>
+
+            <tr>
+              <td><h4 style="font-size:60px">MODULAR</h4></td>
+              <td><h4 style="font-size:60px">INTEGRATED</h4></td>
+              <td><h4 style="font-size:60px">DISTRIBUTED</h4></td>
+              <td><h4 style="font-size:60px"><font color="#f0aa00">ANALYSIS</font></h4></td>
+              <td><h4 style="font-size:60px">SYSTEM</h4></td>
+            </tr>
+          </table>
+        </section>
+        <!-- -------------------------------->
+        <section>
+          <section>
+            <h2>1. INTRODUCTION</h2>
+            <p>MIDAS (Modular Integrated Distributed Analysis System) is a system for online analysis of physiologic signals or other streaming time series and easy integration into online machine learning frameworks.</p>
+          </section>
+<!-- Can we replace this slide with an image -->
+<!--
+          <section>
+            <h2>1.1 ANALYZING PHYSIOLOGIC SIGNALS</h2>
+            <ol>
+              <li>Different signals: EEG, ECG, EDA etc</li>
+              <li>Signal processing required! (e.g. R-peak detection etc)</li>
+              <li>Analysis of processed signals</li>
+              <li>This is not straightforward -- "realtime" requirement</li>
+            </ol>
+
+          </section>
+-->
+		<section>
+			<h2>1.1 ANALYZING PHYSIOLOGIC SIGNALS</h2>
+			<img src="assets/signal_analysis.svg" style="border-style:none;max-width:1000px;"/>
+		</section>
+                <section>
+                    <h2>1.2 QUICK FACTS ABOUT MIDAS</h2>
+                    <ul>
+                        <li style="margin-bottom:15px;margin-top:30px">Modular and distributed</li>
+                        <li style="margin-bottom:15px">Open source (MIT license)</li>
+                        <li style="margin-bottom:15px">Easy to add functionality</li>
+                        <li style="margin-bottom:15px">Easy to integrate with web applications</li>
+                        <li style="margin-bottom:15px">Uses open standard communication protocols</li>
+                        <li style="margin-bottom:15px">Written in Python</li>
+                    </ul>
+                </section>
+
+		<section>
+            <h2>1.3 COMPETITON</h2>
+                    <table>
+                        <tr>
+                            <td><img src="assets/comp_ov.png"/></td>
+                            <td><img src="assets/comp_ssi.png"/></td>
+                            <td><img src="assets/comp_bcilab.png"/></td>
+                        </tr>
+                        <tr>
+                            <td><p>OpenViBE</p><h4 style="font-size:20px">Renard, Yann, et al. "OpenViBE: an open-source software platform to design, test, and use brain-computer interfaces in real and virtual environments" Presence: teleoperators and virtual environments, 2010</h4></td>
+                            <td>SSI<h4 style="font-size:20px">Wagner, Johannes, et al. "The Social Signal Interpretation Framework (SSI) for Real Time Signal Processing and Recognition" INTERSPEECH, 2011</h4></td>
+                            <td>BCILAB<h4 style="font-size:20px">C Kothe, S Makeig. "BCILAB: A platform for brain-computer interface development" Journal of Neural Engineering, 2013</h4></td>
+                        </tr>
+                    </table>
+                </section>
+                <section>
+                    <h2>HOW IS MIDAS DIFFERENT?</h2>
+                    <ul>
+                        <li style="margin-bottom:15px;margin-top:30px"><strong>SLIM:</strong> Only bare bones, no clutter</li>
+                        <li style="margin-bottom:15px"><strong>MODULAR:</strong> Add functionality as needed</li>
+                        <li style="margin-bottom:15px"><strong>DISTRIBUTED:</strong> Runs everywhere (locally, over network, on hand-held, in a cloud)</li>
+                    </ul>
+                </section>
+        </section>
+
+        <!-- -------------------------------->
+
+        <section>
+<!--
+          <section>
+            <h2>2.1 MIDAS Technologies</h2>
+            <ol>
+              <li>Core technologies</li>
+              <li>Lab Streaming Layer</li>
+              <li>LSL integrated into some commercial software (Enobio)</li>
+              <li>Cross-platform</li>
+              <li>ZeroMQ</li>
+            </ol>
+          </section>
+
+   
+
+          <section>
+            <h2>2.2 MIDAS ARCHITECTURE</h2>
+            <p>The MIDAS network consists of ...</p>
+          </section>
+-->
+   
+
+          <section>
+            <h2>2. MIDAS ARCHITECTURE</h2>
+            <img src="assets/midas_simple.svg" style="border-style:none;max-height:700px"/>
+          </section>
+
+          <!-- -------------------------------->
+
+          <section>
+            <h2>2.1 MIDAS ARCHITECTURE</h2>
+            <img src="assets/midas_multiple.svg" style="border-style:none;height:700px"/>
+          </section>
+
+          <!-- -------------------------------->
+
+          <section>
+            <h2>2.2 MIDAS ARCHITECTURE</h2>
+            <img src="assets/midas_hydra.svg" style="border-style:none;max-height:700px"/>
+          </section>
+          <!-- -------------------------------->
+
+          <section>
+            <h2>2.3 COMMUNICATION PROTOCOLS IN MIDAS</h2>
+            <img src="assets/comm_protocols.svg" style="border-style:none;max-height:80%"/>
+          </section>
+
+        </section>
+        <!-- -------------------------------->
+
+        <section>
+	<section>
+          <h2>3. INSTALLATION</h2>
+          <p>Installing MIDAS is super easy!</p>
+          <ol>
+		<li>Install prerequisites</li>
+		<li>Install MIDAS</li>
+	  </ol>
+	<p style="padding-top:60px">Remember to use <strong>Python 3!</strong></p>
+        </section>
+<section>
+	<h2>3.1 INSTALLATION EASY WAY</h2>
+	<div class="fragment fade-in">
+		    <pre><code>$ wget https://raw.githubusercontent.com/bwrc/midas/master/requirements.txt
+$ pip3 install -r requirements.txt
+$ pip3 install git+https://github.com/bwrc/midas/</code></pre>
+	</div>
+</section>
+
+</section>
+<section>
+        <section>
+          <h2>4. BASIC USE</h2>
+            <ol>
+                <li>Start streaming the data</li>
+                <li>Start the node(s)</li>
+                <li>Start the dispatcher</li>
+                <li>Access nodes through the MIDAS API</li>
+            </ol>
+        </section>
+
+        
+        <section>
+        <h2>4.1 STREAMERS </h2>
+        <ul>
+            <li>Transmit raw data over <strong>lab streaming layer</strong></li>
+            <li>Some sensor devices have built-in LSL support (Neuroelectrics Enobio)</li>
+            <li>For some devices you can find LSL drivers from http://code.google.com/p/labstreaminglayer/</li>
+            <li>If no streamer exist it must be made manually (not difficult)</li>
+        </ul>
+        </section>
+        <section>
+            <h2>4.2 STARTING MIDAS</h2>
+            <img src="assets/config_files.svg" style="border-style:none"/>
+        </section>
+</section>
+        <!-- -------------------------------->
+
+        <section>
+          <section>
+            <h2>5 THE MIDAS API</h2>
+            
+            <p>Full reference accessible from wiki</p>
+<h4 style="font-size:60px">github.com/bwrc/midas/wiki/<font color="#003c78">API</font></h4>
+<p>Below are some examples how to use the API</p>
+          </section>
+
+          <section>
+            <h2>5.2 CALLING MIDAS</h2>
+
+            	<div class="fragment fade-in">
+            	            <p>Python</p>
+		    <pre><code>import requests
+r = requests.get("localhost:8080/example_node/metric/metric_a:ch1/5")</code></pre>
+	</div>
+
+	            <div class="fragment fade-in">
+	            	<p>R</p>
+		    <pre><code>library('RCurl')
+r <- getURL("localhost:8080/example_node/metric/metric_a:ch1/5")</code></pre>
+</div>
+
+<div class="fragment fade-in">
+		    <p>MATLAB</p>
+		    <pre><code>r = urlread('localhost:8080/example_node/metric/metric_a:ch1/5');</code></pre>
+          
+        </section>
+
+</section>
+        <!-- -------------------------------->
+        <section>
+          <section>
+            <h2>6. BUILDING A MIDAS NODE</h2>
+            <p>Case example describing how to ...</p>
+          </section>
+
+          <!-- -------------------------------->
+          <section>
+            <img src="assets/example_implementation.svg" style="border-style:none"/>
+          </section>
+          <section>
+            <h2>6.1 THE DATA</h2>
+            <p style="padding-bottom:60px">In this example we will be using simulated electrocardiogram (ECG) data.</p>
+            <p>The simulator (and other utilities) available at:</p>
+            <h4 style="font-size:60px">github.com/bwrc/<font color="#003c78">lsltools</font></h4>
+            <p>but requires:</p>
+            <h4 style="font-size:60px">physionet.org/physiotools/<font color="#003c78">ecgsyn</font></h4>
+            <p>in order to work!</p>
+
+          </section>
+          <section>
+            <img src="assets/ecg_example2.png" style="border-style:none"/>
+          </section>
+          <section>
+            <img src="assets/ecg_rr.svg" style="border-style:none"/>
+          </section>
+          <section>
+            <h2>6.2 SUMMARY OF TERMINOLOGY</h2>
+            <ul>
+              <li><strong>ECG:</strong> Electrocardiogram</li>
+              <li><strong>RR:</strong> Interval between two R-peaks (in milliseconds)</li>
+              <li><strong>IBI:</strong> Vector of RR intervals</li>
+              <li><strong>Heart rate:</strong> Temporal average of the IBI vector (often expressed as beats-per-minute or BPM)</li>
+            </ul>
+          </section>
+
+          <!-- Code -->
+          <section data-markdown>
+            <script type="text/template">
+              ```python
+              from lsltools.sim import ECGData
+
+              def stream_ecg():
+                  ecg = ECGData('/home/jtorniai/ecgsyn_c/ecgsyn', stream_name='ecg_data')
+                  ecg.start()
+
+                  while True:
+                    try:
+                        val = int(input('ecg>'))
+                        print("***\nSetting average heart rate to %d\n***" % val)
+
+                        ecg.set_h(val)
+                        ecg.reset()
+
+                    except ValueError:
+                        print("Input not integer")
+              ```
+            </script>
+          </section>
+
+          <section>
+            <h2>6.3 NODES</h2>
+            <img src="assets/node_internal.svg" style="border-style:none;height:700px"/>
+          </section>
+          <section>
+            <h2>6.3 NODES</h2>
+            <img src="assets/node_internal_highlight.svg" style="border-style:none;height:700px"/>
+          </section>
+          <section>
+            <h2>6.4 DATA CONTAINERS</h2>
+            <table>
+              <tr>
+                <td>
+                  <img src="assets/textless2.svg" style="border-style:none;height:500px"/>
+                </td>
+                <td>
+                  <ul>
+                    <li>Receiver automatically stores all incoming data into primary data buffers</li>
+                    <li>Secondary data buffers can be used to store values calculated from the primary data</li>
+                    <li>Both primary and secondary data can be requested through the dispatcher</li>
+                    <li>Both primary and secondary data can be used as an input for the analysis functions</li>
+                  </ul>
+                </td>
+              </tr>
+            </table>
+          </section>
+          <section>
+            <h2>6.5 ANALYSIS FUNCTIONS</h2>
+            <table>
+              <tr>
+                <td>
+                  <img src="assets/textless1.svg" style="border-style:none;height:500px"/>
+                </td>
+                <td style="text-align:center;vertical-align:middle">
+                  Nodes in the MIDAS framework have two types of analysis functions: <strong>metrics</strong> and <strong>processes</strong>
+                </td>
+              </tr>
+            </table>
+          </section>
+
+          <section>
+            <h2>6.6 METRIC FUNCTION</h2>
+            <ul>
+              <li>y = f(x)</li>
+              <li>Calculates 'a metric' using data as input </li>
+              <li>Input data is specified when the request is made by the client </li>
+              <li>Return value can be a scalar or a vector/array</li>
+              <li>Can be a method of the Node-class or an external function</li>
+            </ul>
+          </section>
+          <section>
+            <h2>6.6 METRIC FUNCTION</h2>
+            <ul>
+              <li>The first positional argument of the metric function always contains the data</li>
+              <li>The incoming data is wrapped inside a dict:</li>
+            </ul>
+            <img src="assets/metric_input.svg" style="border-style:none;height:300px"/>
+          </section>
+          <section>
+            <h2>6.7 PROCESS</h2>
+            <ul>
+              <li>Automatically calculate values from the primary data at set intervals</li>
+              <li>Runs in a separate process</li>
+              <li>Pushes calculated values into secondary data buffer</li>
+              <li>Must be a method of the Node-class</li>
+            </ul>
+          </section>
+          <section>
+            <img src="assets/process_flow.svg" style="border-style:none;height:700px"/>
+          </section>
+          <section>
+            <h2>6.8 OUR ECG-NODE SPECIFICATIONS</h2>
+            <p>Goal: Be able to calculate average heart rate of N last seconds</p>
+            <ol>
+              <li><strong>Process</strong> for automatically calculating inter-beat intervals</li>
+              <li><strong>Metric function</strong> for calculating average heart rate from the IBI vector </li>
+            </ol>
+          </section>
+
+          <!-- Code -->
+          <section data-markdown>
+            <script type="text/template">
+              ```python
+              #!/usr/bin/env python3
+              import sys
+              from midas.node import BaseNode
+              import midas.utilities as mu
+
+              class ECGNode(BaseNode):
+                def __init__(self, *args):
+                    super().__init__(*args)
+
+                    self.metric_functions.append()
+                    self.process_list.append()
+
+              if __name__ == '__main__':
+                node = mu.midas_parse_config(ECGNode, sys.argv)
+                if node is not None:
+                    node.start()
+                    node.show_ui()
+              ```
+            </script>
+          </section>
+          <section>
+            <h2>6.9 DISPATCHER</h2>
+            <img src="assets/dispatch.jpg" style="border-style:none;height:700px"/>
+            <h4 style="font-size:smaller">Photo courtesy Orange County Archives</h4>
+          </section>
+          <section>
+            <h2>6.10 DISPATCHER IN A NUTSHELL</h2>
+            The MIDAS dispatcher is basically an HTTP-server, that receives incoming requests from clients and forwards these to the nodes.
+            <img src="assets/dispatcher_structure.svg" style="border-style:none;height:500px"/>
+          </section>
+          <section>
+            <h2>6.10 DISPATCHER IN A NUTSHELL</h2>
+            The goal of using the dispatcher is to make the connections in the network easier, since the clients only need to communicate with the dispatcher, and hence only need to be configured with the address of the dispatcher instead of being aware of the entire topology of the MIDAS network.
+          </section>
+          <!-- Code -->
+          <section data-markdown>
+            <script type="text/template">
+              ```python
+              #!/usr/bin/env python3
+
+              import sys
+              from midas import utilities as mu
+              from midas.dispatcher import Dispatcher
+
+              if __name__ == "__main__":
+                dp = mu.midas_parse_config(Dispatcher, sys.argv)
+
+              if dp is not None:
+                dp.start()
+              ```
+            </script>
+          </section>
+          <section>
+            <h2>6.12 MIDAS API</h2>
+            <ul>
+              <li>Clients can access metrics functions and data through the dispatcher using HTTP-requests</li>
+              <li>Returned values are wrapped in JSON</li>
+              <li>Full API available here: <strong>bit.ly/1AgKbqh</strong></li>
+            </ul>
+
+          </section>
+          <section data-markdown>
+            <script type="text/template">
+              ```html
+              127.0.0.1:8080/status/nodes
+              ```
+
+              ```json
+              {
+              "ecgnode" : {
+              "address" : "tcp://10.40.3.53:5021",
+              "id" : "01",
+              "name" : "ecgnode",
+              "status" : "online",
+              "type" : "ECG"
+              }
+              }
+              ```
+              ```html
+              127.0.0.1:8080/ecgnode/status/data
+              ```
+              ```json
+              {
+              "ECG" : "raw ECG",
+              "ibi" : "interbeat intervals"
+              }
+              ```
+            </script>
+          </section>
+          <section>
+            <h2>6.13 PUTTING IT ALL TOGETHER</h2>
+            <ul>
+              <li>Dispatcher and nodes must be configured before the network is started</li>
+              <li>Easiest to do using configuration files</li>
+              <li>Follows standard INI-file structure</li>
+            </ul>
+          </section>
+
+          <!-- Code -->
+          <section data-markdown>
+            <script type="text/template">
+              ```ini
+              [dispatcher]
+              port                        = 8080
+              node_list           = ecgnode
+              ip                  = localhost
+              n_threads           = 5
+              run_pubsub_proxy    = False
+              proxy_port_in       = 5999
+              proxy_port_out      = 6000
+
+              [ecg]
+              nodename                            = ecgnode
+              nodetype                            = ECG
+              nodeid                  = 01
+              nodedesc                            = Real-time IBI node
+              primary_node                        = True
+              port_frontend           = 5021
+              port_backend            = 5022
+              port_publisher          = 5023
+              run_publisher           = False
+              n_workers               = 3
+              n_channels              = 1
+              channel_names           = ECG
+              channel_descriptions    = raw ECG
+              sampling_rate           = 256
+              buffer_size_s           = 30
+              lsl_stream_name         = ecg_data
+              secondary_data          = True
+              n_channels_secondary            = 1
+              buffer_size_secondary           = 30
+              channel_names_secondary         = ibi
+              channel_descriptions_secondary  = IBI vector
+              ```
+            </script>
+          </section>
+          <section>
+            <h2 style="padding-bottom:30px">FULL LIST OF CONFIGURATION OPTIONS</h2>
+            <h4 style="font-size:50px">github.com/bwrc/midas/wiki/<font color="#003c78">Configuring-the-node</font></h4>
+            <h4 style="font-size:50px">github.com/bwrc/midas/wiki/<font color="#003c78">Configuring-the-dispatcher</font></h4>
+          </section>
+          <section>
+            <h2>6.14 USING MIDAS</h2>
+            <p><strong>Our toy example:</strong> Control the speed of a Snake-game using the heart rate of the player.</p>
+            <img src="assets/snek.png" style="border-style:none"/>
+          </section>
+          <section>
+            <p style="padding-bottom:20px" >All we need to do now is to add a periodical request for...</p>
+            <h4 style="font-size:60px;padding-bottom:20px">127.0.0.1:8080/ecgnode/metric/median_bpm:ibi/5</h4>
+            <p>...and map the return value to frame rate.</p>
+
+          </section>
+          <section>
+            <h2>6.15 ASSUMPTIONS</h2>
+            <ol>
+              <li>Heart rate will be between 40 - 120 beats-per-minute</li>
+              <li>Snake speed should be between 10 - 50 frames-per-second</li>
+            </ol>
+          </section>
+          <section>
+            <script type="math/tex; mode=display">
+              fr = \frac{bpm-bpm_{min}}{bpm_{max}-bpm_{min}}(fr_{max}-fr_{min})+fr_{min}
+            </script>
+          </section>
+
+          <section>
+            <script type="math/tex; mode=display">
+              fr = \frac{bpm}{2}-10
+            </script>
+          </section>
+        </section>
+
+        <!-- -------------------------------->
+
+        <section>
+          <section>
+            <h2>7. SUPPORTING TOOLS</h2>
+            <p>lsltools-package is geared for working with the lab streaming layer</p>
+          </section>
+
+          <section>
+            <h2>7.1 LSLTOOLS</h2>
+            <img src="assets/lsltools.svg" style="border-style:none;max-height:700px"/>
+          </section>
+
+          <section>
+            <h2>7.2 CONTENTS</h2>
+            <img src="assets/lsltool_contents.svg" style="border-style:none"/>
+          </section>
+        </section>
+
+        <!-- -------------------------------->
+        <section>
+          <h2>8. CONTRIBUTING</h2>
+        </section>
+
+        <!-- -------------------------------->
+        <section>
+          <h2>9. FUTURE</h2>
+          <ol>
+            <p style="padding-bottom:40px;padding-top:40px"><strong> Mobile Applications:</strong> Move experiments out of the lab</p>
+            <p><strong>Internet of Things:</strong> Utilize wearable health technology</p>
+            
+            
+          </ol>
+        </section>
+
+        <!-- -------------------------------->
+
+        <section>
+          <h2>10. Q & A</h2>
+          <!-- <img src=assets/curious.png style="border-style:none;vertical-align:middle"> -->
+        </section>
+
+        <!-- -------------------------------->
+
+
+      </div>
+    </div>
+    <script src="res/head.min.js"></script>
+    <script src="res/reveal.min.js"></script>
+    <script src="res/reveal.js"></script>
+    <script>
+
+      Reveal.initialize({
+      transition: 'linear',
+      controls: false,
+      dependencies: [
+
+      // Interpret Markdown in <section> elements
+        { src: 'res/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'res/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+
+        { src: 'res/math.js', async: true},
+        // Syntax highlight for <code> elements
+          { src: 'res/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+          ]
+          });
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="34cm" height="23cm" viewBox="230 175 664 450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: #00a0be" cx="640.459" cy="277.785" rx="99.8413" ry="99.8366"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="640.459" cy="277.785" rx="99.8413" ry="99.8366"/>
+    <text font-size="22.5778" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="640.459" y="286.374">
+      <tspan x="640.459" y="286.374">DISPATCHER</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #00a0be" d="M 232.778 210.354 L 451.41,210.354 L 451.41,325.676 C 407.684,306.456 385.82,306.456 342.094,325.676 C 298.368,344.897 276.504,344.897 232.778,325.676 L 232.778,210.354z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" d="M 232.778 210.354 L 451.41,210.354 L 451.41,325.676 C 407.684,306.456 385.82,306.456 342.094,325.676 C 298.368,344.897 276.504,344.897 232.778,325.676 L 232.778,210.354"/>
+    <text font-size="22.5778" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="342.094" y="266.872">
+      <tspan x="342.094" y="266.872">DISPATCHER</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #00a0be" d="M 232.778 345.04 C 277.177,365.681 299.377,365.681 343.776,345.04 C 388.175,324.398 410.375,324.398 454.774,345.04 L 454.774,468.89 C 410.375,448.248 388.175,448.248 343.776,468.89 C 299.377,489.531 277.177,489.531 232.778,468.89 L 232.778,345.04z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" d="M 232.778 345.04 C 277.177,365.681 299.377,365.681 343.776,345.04 C 388.175,324.398 410.375,324.398 454.774,345.04 L 454.774,468.89 C 410.375,448.248 388.175,448.248 343.776,468.89 C 299.377,489.531 277.177,489.531 232.778,468.89 L 232.778,345.04"/>
+    <text font-size="22.5778" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="343.776" y="415.431">
+      <tspan x="343.776" y="415.431">NODE01</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: #00a0be" d="M 451.869 622.968 L 232.182,622.968 L 232.182,491.789 C 276.119,513.652 298.088,513.652 342.026,491.789 C 385.963,469.926 407.932,469.926 451.869,491.789 L 451.869,622.968z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" d="M 451.869 622.968 L 232.182,622.968 L 232.182,491.789 C 276.119,513.652 298.088,513.652 342.026,491.789 C 385.963,469.926 407.932,469.926 451.869,491.789 L 451.869,622.968"/>
+    <text font-size="22.5778" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="342.026" y="576.777">
+      <tspan x="342.026" y="576.777">NODE02</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #00a0be" cx="806.908" cy="427.739" rx="84.7659" ry="80.3813"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="806.908" cy="427.739" rx="84.7659" ry="80.3813"/>
+    <text font-size="22.5778" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="806.908" y="436.328">
+      <tspan x="806.908" y="436.328">NODE01</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #00a0be" cx="656.269" cy="547.447" rx="78.579" ry="73.2431"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="656.269" cy="547.447" rx="78.579" ry="73.2431"/>
+    <text font-size="22.5778" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="656.269" y="556.036">
+      <tspan x="656.269" y="556.036">NODE02</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="453.407" y1="277.685" x2="526.643" y2="277.724"/>
+    <polygon style="fill: #003c78" points="534.143,277.728 524.141,282.723 526.643,277.724 524.146,272.723 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="534.143,277.728 524.141,282.723 526.643,277.724 524.146,272.723 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="456.76" y1="427.639" x2="708.183" y2="427.711"/>
+    <polygon style="fill: #003c78" points="715.683,427.713 705.682,432.71 708.183,427.711 705.685,422.71 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="715.683,427.713 705.682,432.71 708.183,427.711 705.685,422.71 "/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="453.806" y1="546.803" x2="563.722" y2="547.153"/>
+    <polygon style="fill: #003c78" points="571.222,547.176 561.206,552.145 563.722,547.153 561.238,542.145 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" points="571.222,547.176 561.206,552.145 563.722,547.153 561.238,542.145 "/>
+  </g>
+  <text font-size="22.5778" style="fill: #000000;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:normal" x="264.464" y="198.738">
+    <tspan x="264.464" y="198.738">CONFIG.INI</tspan>
+  </text>
+</svg>

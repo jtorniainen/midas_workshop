@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="35cm" height="14cm" viewBox="155 118 690 273" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="697.542" y="119.105" width="144.956" height="110.308"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="697.542" y="119.105" width="144.956" height="110.308"/>
+  </g>
+  <g>
+    <ellipse style="fill: #00a0be" cx="558.807" cy="317.847" rx="57.7067" ry="54.1335"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="558.807" cy="317.847" rx="57.7067" ry="54.1335"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="558.807" y="323.25">
+      <tspan x="558.807" y="323.25">Dispatcher</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #00a0be" cx="410.234" cy="317.847" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="410.234" cy="317.847" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="410.234" y="314.402">
+      <tspan x="410.234" y="314.402">ECG</tspan>
+      <tspan x="410.234" y="332.097">node</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #f0aa00" cx="217.807" cy="317.847" rx="42.3318" ry="42.2918"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="217.807" cy="317.847" rx="42.3318" ry="42.2918"/>
+    <text font-size="14.1563" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="217.807" y="314.402">
+      <tspan x="217.807" y="314.402">ECG</tspan>
+      <tspan x="217.807" y="332.097">sensor</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #828282" cx="773.806" cy="317.847" rx="69.0599" ry="71.1411"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="773.806" cy="317.847" rx="69.0599" ry="71.1411"/>
+    <text font-size="14.1563" style="fill: #f0f0f0;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="773.806" y="305.554">
+      <tspan x="773.806" y="305.554">Physiologically</tspan>
+      <tspan x="773.806" y="323.25">augmented</tspan>
+      <tspan x="773.806" y="340.945">application</tspan>
+    </text>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="702.787" y1="317.847" x2="618.501" y2="317.847"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="499.093" y1="317.847" x2="462.213" y2="317.847"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="358.252" y1="317.847" x2="261.78" y2="317.847"/>
+  <g>
+    <path style="fill: #f0f0f0" d="M 185.719 179.354 C 155.177,141.177 216.26,125.906 216.26,171.718 C 216.26,171.718 216.26,171.718 216.26,171.718 C 216.26,125.906 277.344,141.177 246.802,179.354 C 246.802,179.354 216.26,217.531 216.26,217.531 C 216.26,217.531 185.719,179.354 185.719,179.354z"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #ffffff" d="M 185.719 179.354 C 155.177,141.177 216.26,125.906 216.26,171.718 C 216.26,171.718 216.26,171.718 216.26,171.718 C 216.26,125.906 277.344,141.177 246.802,179.354 C 246.802,179.354 216.26,217.531 216.26,217.531 C 216.26,217.531 185.719,179.354 185.719,179.354"/>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2.35099e-37; stroke: #ffffff" d="M 185.719 179.354 C 155.177,141.177 216.26,125.906 216.26,171.718 C 216.26,171.718 216.26,171.718 216.26,171.718 C 216.26,125.906 277.344,141.177 246.802,179.354 C 246.802,179.354 216.26,217.531 216.26,217.531 C 216.26,217.531 185.719,179.354 185.719,179.354"/>
+  </g>
+  <path style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #f0aa00" d="M 163.11 193.405 C 189.57,194.594 171.137,194.594 185.408,193.702 C 199.678,192.811 196.408,174.527 201.462,191.324 C 206.516,208.122 215.138,131.864 218.408,147.621 C 221.678,163.378 226.138,213.77 231.192,190.432 C 236.246,167.094 238.922,202.77 262.111,197.419"/>
+  <polyline style="fill: none; fill-opacity:0; stroke-width: 8; stroke: #00a0be" points="830,213.476 830,143.473 793.231,143.473 793.231,217.011 767.068,217.011 767.068,171.757 749.39,171.757 "/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 8; stroke: #f0aa00" x1="734.16" y1="171.518" x2="742.953" y2="171.526"/>
+  <text font-size="12.8" style="fill: #003c78;text-anchor:start;font-family:Verdana;font-style:normal;font-weight:700" x="704.907" y="134.644">
+    <tspan x="704.907" y="134.644">Score: 451</tspan>
+  </text>
+</svg>

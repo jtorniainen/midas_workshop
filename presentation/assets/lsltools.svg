@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="15cm" height="24cm" viewBox="337 109 281 476" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <ellipse style="fill: #00a0be" cx="397.067" cy="233.534" rx="57.7067" ry="54.1335"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="397.067" cy="233.534" rx="57.7067" ry="54.1335"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="397.067" y="230.088">
+      <tspan x="397.067" y="230.088">MIDAS</tspan>
+      <tspan x="397.067" y="247.784">dispatcher</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #00a0be" cx="397.068" cy="370" rx="50" ry="50"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="397.068" cy="370" rx="50" ry="50"/>
+    <text font-size="14.1563" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="397.068" y="366.555">
+      <tspan x="397.068" y="366.555">MIDAS</tspan>
+      <tspan x="397.068" y="384.25">node</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #f0aa00" cx="397.34" cy="543.455" rx="39.0015" ry="38.9646"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" cx="397.34" cy="543.455" rx="39.0015" ry="38.9646"/>
+    <text font-size="14.1563" style="fill: #000000;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="397.34" y="548.858">
+      <tspan x="397.34" y="548.858">Sensor</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="397.066" y1="133.839" x2="397.067" y2="177.412"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="397.066" y1="113.839" x2="397.066" y2="117.839"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="397.066" y1="120.505" x2="397.066" y2="124.505"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="397.066" y1="127.172" x2="397.066" y2="131.172"/>
+  </g>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="397.067" y1="289.656" x2="397.068" y2="318.009"/>
+  <line style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #003c78" x1="397.149" y1="421.918" x2="397.276" y2="502.495"/>
+  <g>
+    <rect style="fill: #828282" x="482.648" y="422.163" width="133" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 4; stroke: #828282" x="482.648" y="422.163" width="133" height="80"/>
+    <text font-size="12.8" style="fill: #ffffff;text-anchor:middle;font-family:Verdana;font-style:normal;font-weight:normal" x="549.148" y="467.013">
+      <tspan x="549.148" y="467.013">LSLTOOLS</tspan>
+    </text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 16; stroke: #828282" x1="480.655" y1="462.182" x2="422.601" y2="462.199"/>
+    <polygon style="fill: #828282" points="415.101,462.201 425.1,457.198 422.601,462.199 425.103,467.198 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 16; stroke: #828282" points="415.101,462.201 425.1,457.198 422.601,462.199 425.103,467.198 "/>
+  </g>
+</svg>
