@@ -23,6 +23,7 @@
         <section>
           <h2>MIDAS WORKSHOP</h2>
           <h4>Finnish Institute of Occupational Health</h4>
+          <h4>2.2.2015</h4>
         </section>
 
         <section>
@@ -155,11 +156,9 @@
         </section>
 <section>
 	<h2>3.1 INSTALLATION EASY WAY</h2>
-	<div class="fragment fade-in">
 		    <pre>$ wget https://raw.githubusercontent.com/bwrc/midas/master/requirements.txt
 $ pip3 install -r requirements.txt
 $ pip3 install git+https://github.com/bwrc/midas/</pre>
-	</div>
 </section>
 
 </section>
@@ -202,19 +201,14 @@ $ pip3 install git+https://github.com/bwrc/midas/</pre>
           <section>
             <h2>5.2 CALLING MIDAS</h2>
 
-            	<div class="fragment fade-in">
             	            <p>Python</p>
 		    <pre><code>import requests
 r = requests.get("localhost:8080/example_node/metric/metric_a:ch1/5")</code></pre>
-	</div>
 
-	            <div class="fragment fade-in">
 	            	<p>R</p>
 		    <pre><code>library('RCurl')
 r <- getURL("localhost:8080/example_node/metric/metric_a:ch1/5")</code></pre>
-</div>
 
-<div class="fragment fade-in">
 		    <p>MATLAB</p>
 		    <pre><code>r = urlread('localhost:8080/example_node/metric/metric_a:ch1/5');</code></pre>
           
