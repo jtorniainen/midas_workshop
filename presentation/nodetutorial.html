@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="res/reveal.css">
     <link rel="stylesheet" href="res/bwrc.css" id="theme">
     <link rel="stylesheet" href="res/zenburn2.css">
-    <link rel="stylesheet" href="res/pdf2.css">
+	<!-- <link rel="stylesheet" href="res/pdf2.css"> -->
   </head>
 
   <body>
@@ -224,7 +224,6 @@ r <- getURL("localhost:8080/example_node/metric/metric_a:ch1/5")</code></pre>
         <section>
           <section>
             <h2>6. BUILDING A MIDAS NODE</h2>
-            <p>Case example describing how to ...</p>
           </section>
 
           <section>
@@ -393,7 +392,11 @@ r <- getURL("localhost:8080/example_node/metric/metric_a:ch1/5")</code></pre>
           </section>
           <section>
             <h2>6.10 DISPATCHER IN A NUTSHELL</h2>
-            The goal of using the dispatcher is to make the connections in the network easier, since the clients only need to communicate with the dispatcher, and hence only need to be configured with the address of the dispatcher instead of being aware of the entire topology of the MIDAS network.
+			<ul>
+				<li>Make connections in the network easier</li>
+				<li>Clients only need to communicate with the dispatcher</li>
+				<li>No need to know the entire topology of the network</li>
+			</ul>
           </section>
           <section data-markdown>
             <script type="text/template">
@@ -421,11 +424,9 @@ r <- getURL("localhost:8080/example_node/metric/metric_a:ch1/5")</code></pre>
             </ul>
 
           </section>
-          <section data-markdown>
-            <script type="text/template">
+          <section>
               127.0.0.1:8080/status/nodes
-
-              ```json
+			  <pre><code>
               {
               "ecgnode" : {
               "address" : "tcp://10.40.3.53:5021",
@@ -435,15 +436,15 @@ r <- getURL("localhost:8080/example_node/metric/metric_a:ch1/5")</code></pre>
               "type" : "ECG"
               }
               }
-              ```
-			  HTTP-ET 127.0.0.1:8080/ecgnode/status/data
-              ```json
+			  </code></pre>
+			  
+			  127.0.0.1:8080/ecgnode/status/data
+			  <pre><code>
               {
               "ECG" : "raw ECG",
               "ibi" : "interbeat intervals"
               }
-              ```
-            </script>
+			 </code></pre>
           </section>
           <section>
             <h2>6.13 PUTTING IT ALL TOGETHER</h2>
