@@ -23,7 +23,7 @@
         <section>
           <h2>MIDAS WORKSHOP</h2>
           <h4>Finnish Institute of Occupational Health</h4>
-          <h4>2.2.2015</h4>
+          <h4>02.02.2015</h4>
         </section>
 
         <section>
@@ -72,7 +72,7 @@
         <section>
           <section>
             <h2>1. INTRODUCTION</h2>
-            <p>MIDAS (Modular Integrated Distributed Analysis System) is a system for online analysis of physiologic signals or other streaming time series and easy integration into online machine learning frameworks.</p>
+            <p>"MIDAS (Modular Integrated Distributed Analysis System) is a system for online analysis of physiologic signals or other streaming time series and easy integration into online machine learning frameworks."</p>
           </section>
 
 		<section>
@@ -98,22 +98,32 @@
                             <td><img src="assets/comp_ov.png"/></td>
                             <td><img src="assets/comp_ssi.png"/></td>
                             <td><img src="assets/comp_bcilab.png"/></td>
+			    <td><img src="assets/comp_bci2000.png" style="height:120px"/></td>
                         </tr>
                         <tr>
                             <td><p>OpenViBE</p><h4 style="font-size:20px">Renard, Yann, et al. "OpenViBE: an open-source software platform to design, test, and use brain-computer interfaces in real and virtual environments" Presence: teleoperators and virtual environments, 2010</h4></td>
                             <td>SSI<h4 style="font-size:20px">Wagner, Johannes, et al. "The Social Signal Interpretation Framework (SSI) for Real Time Signal Processing and Recognition" INTERSPEECH, 2011</h4></td>
                             <td>BCILAB<h4 style="font-size:20px">C Kothe, S Makeig. "BCILAB: A platform for brain-computer interface development" Journal of Neural Engineering, 2013</h4></td>
+			    <td>BCI2000<h4 style="font-size:20px">G. Schalk, D.J. McFarland, T. Hinterberger, N. Birbaumer, and J.R. Wolpaw: BCI2000: A General-Purpose Brain-Computer Interface (BCI) System, IEEE Trans Biomed Eng, 51(6), June 2004.</h4></td>
                         </tr>
                     </table>
                 </section>
+
                 <section>
                     <h2>HOW IS MIDAS DIFFERENT?</h2>
                     <ul>
-                        <li style="margin-bottom:15px;margin-top:30px"><strong>SLIM:</strong> Only bare bones, no clutter</li>
+                        <li style="margin-bottom:15px;margin-top:30px"><strong>SLIM:</strong> Bare bones, no clutter</li>
                         <li style="margin-bottom:15px"><strong>MODULAR:</strong> Add functionality as needed</li>
                         <li style="margin-bottom:15px"><strong>DISTRIBUTED:</strong> Runs everywhere (locally, over network, on hand-held, in a cloud)</li>
                     </ul>
                 </section>
+
+                <section>
+                    <h2>WHEN TO USE MIDAS?</h2>
+		    <p>On-line analysis of streaming data</p>
+                </section>
+
+		
         </section>
 
 
@@ -155,8 +165,18 @@
 	<p style="padding-top:60px">Remember to use <strong>Python 3!</strong></p>
         </section>
 <section>
-	<h2>3.1 INSTALLATION EASY WAY</h2>
-		    <pre>$ wget https://raw.githubusercontent.com/bwrc/midas/master/requirements.txt
+	<h2>3.1 INSTALLATION THE EASY WAY</h2>
+	First create a <strong>sandbox</strong> ...
+<pre>
+  $ pip3 install virtualenv
+  $ mkdir my_project
+  $ cd my_project
+  $ virtualenv venv
+  $ source venv/bin/activate
+</pre>
+
+... then install <strong>MIDAS</strong>:
+	<pre>$ wget https://raw.githubusercontent.com/bwrc/midas/master/requirements.txt
 $ pip3 install -r requirements.txt
 $ pip3 install git+https://github.com/bwrc/midas/</pre>
 </section>
@@ -177,10 +197,10 @@ $ pip3 install git+https://github.com/bwrc/midas/</pre>
         <section>
         <h2>4.1 STREAMERS </h2>
         <ul>
-            <li>Transmit raw data over <strong>lab streaming layer</strong></li>
+            <li>Transmit raw data over the <strong>lab streaming layer</strong></li>
             <li>Some sensor devices have built-in LSL support (Neuroelectrics Enobio)</li>
-            <li>For some devices you can find LSL drivers from http://code.google.com/p/labstreaminglayer/</li>
-            <li>If no streamer exist it must be made manually (not difficult)</li>
+            <li>For some devices you can find LSL drivers from <strong>http://code.google.com/p/labstreaminglayer/</strong></li>
+            <li>If no streamer exist, write it yourself!  (not difficult)</li>
         </ul>
         </section>
         <section>
@@ -203,15 +223,16 @@ $ pip3 install git+https://github.com/bwrc/midas/</pre>
 
             	            <p>Python</p>
 		    <pre><code>import requests
-r = requests.get("localhost:8080/example_node/metric/metric_a:ch1/5")</code></pre>
+r = requests.get("http://localhost:8080/example_node/metric/metric_a:ch1/5")</code></pre>
 
 	            	<p>R</p>
-		    <pre><code>library('RCurl')
-r <- getURL("localhost:8080/example_node/metric/metric_a:ch1/5")</code></pre>
+		    <pre><code>library(RCurl)
+r <- getURL("http://localhost:8080/example_node/metric/metric_a:ch1/5")</code></pre>
 
 		    <p>MATLAB</p>
-		    <pre><code>r = urlread('localhost:8080/example_node/metric/metric_a:ch1/5');</code></pre>
-          
+		    <pre><code>r = urlread('http://localhost:8080/example_node/metric/metric_a:ch1/5');</code></pre>
+		    </br></br></br>
+		    <p>MIDAS also supports <strong>JSONP</strong> for use with JavaScript.</p>
         </section>
 
 </section>
