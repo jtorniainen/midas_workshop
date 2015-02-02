@@ -82,11 +82,11 @@
                 <section>
                     <h2>1.2 QUICK FACTS ABOUT MIDAS</h2>
                     <ul>
-                        <li style="margin-bottom:15px;margin-top:30px">Modular and distributed</li>
                         <li style="margin-bottom:15px">Open source (MIT license)</li>
-                        <li style="margin-bottom:15px">Easy to add functionality</li>
-                        <li style="margin-bottom:15px">Easy to integrate with web applications</li>
+			<li style="margin-bottom:15px;margin-top:30px">Modular and distributed</li>
+                        <li style="margin-bottom:15px">Easy to integrate into applications</li>
                         <li style="margin-bottom:15px">Uses open standard communication protocols</li>
+                        <li style="margin-bottom:15px">Easy to add functionality</li>
                         <li style="margin-bottom:15px">Written in Python</li>
                     </ul>
                 </section>
@@ -186,26 +186,29 @@ $ pip3 install git+https://github.com/bwrc/midas/</pre>
         <section>
           <h2>4. BASIC USE</h2>
             <ol>
-                <li>Start streaming the data</li>
+	      <li>Configure options (if needed)</li>
+	      </br>
+              <li>Start streaming the data</li>
                 <li>Start the node(s)</li>
                 <li>Start the dispatcher</li>
                 <li>Access nodes through the MIDAS API</li>
             </ol>
         </section>
+	
+	<section>
+            <h2>4.1 STARTING MIDAS</h2>
+            <img src="assets/config_files.svg" style="border-style:none"/>
+        </section>
 
         
         <section>
-        <h2>4.1 STREAMERS </h2>
+        <h2>4.2 STREAMERS </h2>
         <ul>
-            <li>Transmit raw data over the <strong>lab streaming layer</strong></li>
-            <li>Some sensor devices have built-in LSL support (Neuroelectrics Enobio)</li>
+            <li>Read sensor data and retransmit raw data using the <strong>lab streaming layer</strong></li>
+            <li>Some devices have built-in LSL support (Neuroelectrics Enobio)</li>
             <li>For some devices you can find LSL drivers from <strong>http://code.google.com/p/labstreaminglayer/</strong></li>
             <li>If no streamer exist, write it yourself!  (not difficult)</li>
         </ul>
-        </section>
-        <section>
-            <h2>4.2 STARTING MIDAS</h2>
-            <img src="assets/config_files.svg" style="border-style:none"/>
         </section>
 </section>
 
@@ -213,9 +216,8 @@ $ pip3 install git+https://github.com/bwrc/midas/</pre>
           <section>
             <h2>5 THE MIDAS API</h2>
             
-            <p>Full reference accessible from wiki</p>
+            <p>Full API found in the wiki</p>
 <h4 style="font-size:60px">github.com/bwrc/midas/wiki/<font color="#003c78">API</font></h4>
-<p>Below are some examples how to use the API</p>
           </section>
 
           <section>
@@ -539,7 +541,7 @@ r <- getURL("http://localhost:8080/example_node/metric/metric_a:ch1/5")</code></
           </section>
         </section>
 
-        <!-- -------------------------------->
+        <!-- ------------------------------ -->
 
         <section>
           <section>
@@ -558,12 +560,12 @@ r <- getURL("http://localhost:8080/example_node/metric/metric_a:ch1/5")</code></
           </section>
         </section>
 
-        <!-- -------------------------------->
+        <!-- ------------------------------ -->
         <section>
           <h2>8. CONTRIBUTING</h2>
         </section>
 
-        <!-- -------------------------------->
+        <!-- ------------------------------ -->
         <section>
           <h2>9. FUTURE</h2>
           <ol>
@@ -574,14 +576,14 @@ r <- getURL("http://localhost:8080/example_node/metric/metric_a:ch1/5")</code></
           </ol>
         </section>
 
-        <!-- -------------------------------->
+        <!-- ------------------------------ -->
 
         <section>
           <h2>10. Q & A</h2>
           <!-- <img src=assets/curious.png style="border-style:none;vertical-align:middle"> -->
         </section>
 
-        <!-- -------------------------------->
+        <!-- ------------------------------ -->
 
 
       </div>
