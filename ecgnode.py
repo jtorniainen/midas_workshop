@@ -5,14 +5,12 @@
 # Copyright 2015 Finnish Institute of Occupational Health
 
 import sys
-import inspect
 
 from midas.node import BaseNode
 import midas.utilities as mu
 
 import scipy
 import scipy.signal
-import ECGUtilities
 
 import numpy as np
 
@@ -22,14 +20,8 @@ class ECGNode(BaseNode):
     def __init__(self, *args):
         super().__init__(*args)
 
-        # Generate dict for metric descriptions and function pointers
-        # these are saved to metric_list and metric_functions dicts
-        self.metric_functions = [
-            i[1] for i in inspect.getmembers(
-                ECGUtilities,
-                inspect.isfunction)]
 
-        self.metric_functions.append(self.get_bpm)
+        self.metric_functions.append(self.median_bpm)
         self.process_list.append(self.online_ibi)
 
     def median_bpm(self, x):

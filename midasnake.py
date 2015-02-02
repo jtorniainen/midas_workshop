@@ -319,7 +319,7 @@ class Snake():
                         bpm = 40.0
                     elif bpm > 120:
                         bpm = 120.0
-                    self.mFrameRate = bpm / 2 + 10
+                    self.mFrameRate = bpm / 2 - 10
                     self.last_speed_update = time.time()
             except:
                 pass
