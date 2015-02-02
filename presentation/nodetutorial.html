@@ -77,7 +77,7 @@
 
 		<section>
 			<h2>1.1 ANALYZING PHYSIOLOGIC SIGNALS</h2>
-			<img src="assets/signal_analysis.svg" style="border-style:none;max-width:1000px;"/>
+			<img src="assets/signal_analysis.svg" style="border-style:none;max-width:800px;"/>
 		</section>
                 <section>
                     <h2>1.2 QUICK FACTS ABOUT MIDAS</h2>
@@ -132,24 +132,24 @@
 
           <section>
             <h2>2. MIDAS ARCHITECTURE</h2>
-            <img src="assets/midas_simple.svg" style="border-style:none;max-height:700px"/>
+            <img src="assets/midas_simple.svg" style="border-style:none;max-height:600px"/>
           </section>
 
 
           <section>
             <h2>2.1 MIDAS ARCHITECTURE</h2>
-            <img src="assets/midas_multiple.svg" style="border-style:none;height:700px"/>
+            <img src="assets/midas_multiple.svg" style="border-style:none;max-height:600px"/>
           </section>
 
 
           <section>
             <h2>2.2 MIDAS ARCHITECTURE</h2>
-            <img src="assets/midas_hydra.svg" style="border-style:none;max-height:700px"/>
+            <img src="assets/midas_hydra.svg" style="border-style:none;max-height:600px"/>
           </section>
 
           <section>
             <h2>2.3 COMMUNICATION PROTOCOLS IN MIDAS</h2>
-            <img src="assets/comm_protocols.svg" style="border-style:none;max-height:80%"/>
+            <img src="assets/comm_protocols.svg" style="border-style:none;max-height:600px"/>
           </section>
 
         </section>
@@ -297,11 +297,11 @@ r <- getURL("http://localhost:8080/example_node/metric/metric_a:ch1/5")</code></
 
           <section>
             <h2>6.3 NODES</h2>
-            <img src="assets/node_internal.svg" style="border-style:none;height:700px"/>
+            <img src="assets/node_internal.svg" style="border-style:none;height:600px"/>
           </section>
           <section>
             <h2>6.3 NODES</h2>
-            <img src="assets/node_internal_highlight.svg" style="border-style:none;height:700px"/>
+            <img src="assets/node_internal_highlight.svg" style="border-style:none;height:600px"/>
           </section>
           <section>
             <h2>6.4 DATA CONTAINERS</h2>
@@ -363,7 +363,7 @@ r <- getURL("http://localhost:8080/example_node/metric/metric_a:ch1/5")</code></
             </ul>
           </section>
           <section>
-            <img src="assets/process_flow.svg" style="border-style:none;height:700px"/>
+            <img src="assets/process_flow.svg" style="border-style:none;height:600px"/>
           </section>
           <section>
             <h2>6.8 OUR ECG-NODE SPECIFICATIONS</h2>
@@ -399,13 +399,13 @@ r <- getURL("http://localhost:8080/example_node/metric/metric_a:ch1/5")</code></
           </section>
           <section>
             <h2>6.9 DISPATCHER</h2>
-            <img src="assets/dispatch.jpg" style="border-style:none;height:700px"/>
+            <img src="assets/dispatch.jpg" style="border-style:none;height:500px"/>
             <h4 style="font-size:smaller">Photo courtesy Orange County Archives</h4>
           </section>
           <section>
             <h2>6.10 DISPATCHER IN A NUTSHELL</h2>
             The MIDAS dispatcher is basically an HTTP-server, that receives incoming requests from clients and forwards these to the nodes.
-            <img src="assets/dispatcher_structure.svg" style="border-style:none;height:500px"/>
+            <img src="assets/dispatcher_structure.svg" style="border-style:none;height:450px"/>
           </section>
           <section>
             <h2>6.10 DISPATCHER IN A NUTSHELL</h2>
@@ -547,11 +547,12 @@ r <- getURL("http://localhost:8080/example_node/metric/metric_a:ch1/5")</code></
           <section>
             <h2>7. SUPPORTING TOOLS</h2>
             <p>lsltools-package is geared for working with the lab streaming layer</p>
+            <h4 style="font-size:60px;padding-top:40px">github.com/bwrc/<font color="#003c78">lsltools</font></h4>
           </section>
 
           <section>
             <h2>7.1 LSLTOOLS</h2>
-            <img src="assets/lsltools.svg" style="border-style:none;max-height:700px"/>
+            <img src="assets/lsltools.svg" style="border-style:none;max-height:600px"/>
           </section>
 
           <section>
@@ -563,9 +564,11 @@ r <- getURL("http://localhost:8080/example_node/metric/metric_a:ch1/5")</code></
         <!-- ------------------------------ -->
         <section>
           <h2>8. CONTRIBUTING</h2>
+          <h4 style="font-size:100px;padding-top:80px">github.com/bwrc/<font color="#003c78">midas</font></h4>
         </section>
 
         <!-- ------------------------------ -->
+
         <section>
           <h2>9. FUTURE</h2>
           <ol>
@@ -585,7 +588,6 @@ r <- getURL("http://localhost:8080/example_node/metric/metric_a:ch1/5")</code></
 
         <!-- ------------------------------ -->
 
-
       </div>
     </div>
     <script src="res/head.min.js"></script>
@@ -595,6 +597,15 @@ r <- getURL("http://localhost:8080/example_node/metric/metric_a:ch1/5")</code></
 
       Reveal.initialize({
       transition: 'linear',
+	   width: 960,
+    height: 700,
+
+    // Factor of the display size that should remain empty around the content
+    margin: 0.1,
+
+    // Bounds for smallest/largest possible scale to apply to content
+    minScale: 0.2,
+    maxScale: 1.0,	  
       controls: false,
       dependencies: [
 
